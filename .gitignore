@@ -7,3 +7,11 @@ _next
 build
 public/assets
 public/pdf
+*.p12
+*.pem
+*.key
+*.crt
+*.csr
+*.csr.pem
+*.csr.key
+oms_keystore
