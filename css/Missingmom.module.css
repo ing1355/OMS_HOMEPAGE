@@ -1,0 +1,610 @@
+:lang(ko) .enImg {
+  display: none;
+}
+:lang(en) .koImg {
+  display: none;
+}
+
+.missingmom {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.Solutionimg {
+  width: 15rem !important;
+}
+.missingmom .missingmomtextbox {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.missingmom .missingmomtextbox .missingmomtitle {
+  width: 80%;
+  margin: 0 auto;
+  height: 380px;
+  background-color: #e7fbf9;
+  border-radius: 20px;
+  text-align: center;
+}
+:lang(en) .missingmom .missingmomtextbox .missingmomtitle {
+  height: 450px;
+}
+:lang(en) .missingmom .missingmomtextbox .missingmomtitle div:nth-child(1) img {
+  margin-top: 3.3rem;
+}
+.missingmom .missingmomtextbox .missingmomtitle div {
+  float: left;
+  width: 35%;
+}
+
+.missingmom .missingmomtextbox .missingmomtitle div:nth-child(1) img {
+  margin-top: 3rem;
+}
+
+.missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) {
+  text-align: left;
+  width: 65%;
+}
+
+.missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h1 {
+  width: 15rem;
+  height: auto;
+  text-align: center;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #14d7c8;
+  font-size: 2rem;
+  line-height: auto;
+  margin-top: 3rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p {
+  margin-bottom: 20px;
+  padding: 0px 1rem 0 0;
+  font-size: 1.2rem;
+}
+.missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p span {
+  font-size: 1.2rem !important;
+  color: #272727 !important;
+}
+.missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) span {
+  font-size: 1rem;
+}
+
+.missingmom .scenario {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 5rem !important;
+}
+
+.missingmom .scenario h2 {
+  width: 100%;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 900;
+}
+
+.missingmom .scenario div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.missingmom .scenario div img {
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+.mobile-div-span {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1208px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle {
+    width: 80%;
+    height: 370px;
+  }
+  :lang(en) .missingmom .missingmomtextbox .missingmomtitle {
+    height: 400px;
+  }
+  :lang(en)
+    .missingmom
+    .missingmomtextbox
+    .missingmomtitle
+    div:nth-child(1)
+    img {
+    margin-top: 4rem;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 2rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 0.8rem 0;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h3 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.2rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) span {
+    font-size: 0.9rem;
+  }
+
+  .missingmom .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .missingmom .scenario h2 {
+    width: 100%;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .missingmom .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle {
+    width: 80%;
+    height: 330px;
+  }
+  :lang(en) .missingmom .missingmomtextbox .missingmomtitle {
+    height: 420px;
+  }
+  :lang(en)
+    .missingmom
+    .missingmomtextbox
+    .missingmomtitle
+    div:nth-child(1)
+    img {
+    margin-top: 4rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div {
+    float: left;
+    width: 40%;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) {
+    text-align: left;
+    width: 60%;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 1.7rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) span {
+    font-size: 0.9rem;
+  }
+
+  .missingmom .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .missingmom .scenario h2 {
+    width: 100%;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .missingmom .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 834px) {
+  :lang(en) .missingmom .missingmomtextbox .missingmomtitle {
+    height: 450px;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle {
+    width: 85%;
+  }
+  .missingmom .scenario {
+    width: 85%;
+  }
+
+  .missingmom .scenario h2 {
+    width: 100%;
+  }
+}
+/* ==================================================== */
+
+@media (max-width: 768px) {
+  .Solutionimg {
+    width: 20rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle {
+    width: 80%;
+    height: 940px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .missingmom .missingmomtextbox .missingmomtitle {
+    height: 1050px;
+  }
+  :lang(en)
+    .missingmom
+    .missingmomtextbox
+    .missingmomtitle
+    div:nth-child(1)
+    img {
+    margin-top: 4rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(1) img {
+    margin-top: 3.5rem;
+    margin-left: -25px;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h1 {
+    width: 25rem;
+    height: auto;
+    font-size: 2.5rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1.2rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h3 {
+    font-size: 2.3rem;
+    margin-top: 2rem;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.5rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p span {
+    font-size: 1.5rem !important;
+    display: block;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) span {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .Solutionimg {
+    width: 17rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle {
+    width: 85%;
+    height: 810px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .missingmom .missingmomtextbox .missingmomtitle {
+    height: 880px;
+  }
+  :lang(en)
+    .missingmom
+    .missingmomtextbox
+    .missingmomtitle
+    div:nth-child(1)
+    img {
+    margin-top: 4rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(1) img {
+    margin-top: 3rem !important;
+    margin-left: -25px;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h1 {
+    width: 17rem;
+    height: auto;
+    font-size: 1.8rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem !important;
+  }
+  .mobile-div-span p {
+    margin-top: 0 !important;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1.2rem;
+  }
+  :lang(en) .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 1rem;
+    font-size: 1.2rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p span {
+    font-size: 1.2rem !important;
+    display: block;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+
+  .missingmom .scenario {
+    width: 85%;
+    margin-top: 2rem !important;
+  }
+  :lang(en) .missingmom .scenario h2 {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .missingmom .scenario h2 {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .missingmom .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .Solutionimg {
+    width: 15rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) span {
+    font-size: 0.8rem !important;
+    padding: 0 1rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle {
+    height: 730px;
+  }
+  :lang(en) .missingmom .missingmomtextbox .missingmomtitle {
+    height: 810px;
+  }
+  :lang(en)
+    .missingmom
+    .missingmomtextbox
+    .missingmomtitle
+    div:nth-child(1)
+    img {
+    margin-top: 4rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .Solutionimg {
+    width: 13rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle {
+    width: 85%;
+    height: 680px;
+  }
+  :lang(en) .missingmom .missingmomtextbox .missingmomtitle {
+    height: 750px;
+  }
+  :lang(en)
+    .missingmom
+    .missingmomtextbox
+    .missingmomtitle
+    div:nth-child(1)
+    img {
+    margin-top: 3rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h1 {
+    width: 14rem;
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+  .missingmom .scenario h2 {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+  }
+  :lang(en) .missingmom .scenario h2 {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .Solutionimg {
+    width: 12em !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle {
+    width: 85%;
+    height: 650px;
+  }
+
+  :lang(en) .missingmom .missingmomtextbox .missingmomtitle {
+    height: 730px;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h3 {
+    font-size: 1.3rem;
+    margin-top: 2rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.9rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p span {
+    font-size: 0.9rem !important;
+  }
+}
+@media (max-width: 280px) {
+  .Solutionimg {
+    width: 11em !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle {
+    width: 85%;
+    height: 620px;
+  }
+  :lang(en) .missingmom .missingmomtextbox .missingmomtitle {
+    height: 710px;
+  }
+  :lang(en)
+    .missingmom
+    .missingmomtextbox
+    .missingmomtitle
+    div:nth-child(1)
+    img {
+    margin-top: 3rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h1 {
+    width: 12rem;
+    font-size: 1.3rem;
+    margin-top: 1rem !important;
+    padding: 0.8rem 0;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem !important;
+  }
+
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.8rem;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) p span {
+    font-size: 0.8rem !important;
+  }
+  .missingmom .missingmomtextbox .missingmomtitle div:nth-child(2) span {
+    font-size: 0.7rem;
+    padding: 0 1rem;
+  }
+
+  .missingmom .scenario h2 {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  :lang(en) .missingmom .scenario h2 {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}

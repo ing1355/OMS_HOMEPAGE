@@ -1,0 +1,129 @@
+.paten .patenbox {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 80px;
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 8rem;
+}
+.paten {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.paten .patenbox h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+.paten .patenbox ul {
+  padding-top: 50px !important;
+}
+.paten .patenbox ul table {
+  /* width: 100%; */
+  table-layout: fixed;
+}
+.paten .patenbox ul table tr {
+  height: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.paten .patenbox ul table tr td:nth-child(1) {
+  width: 12rem;
+}
+.paten .patenbox ul table tr td:nth-child(3) {
+  width: 12rem;
+}
+.paten .patenbox ul table th {
+  line-height: 70px;
+  font-size: 1.1rem;
+  background-color: #f69c3b;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .paten .patenbox ul table th {
+    line-height: 65px;
+    font-size: 1rem;
+  }
+  .paten .patenbox ul table {
+    table-layout: fixed;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .paten .patenbox ul table th {
+    line-height: 55px;
+    font-size: 0.9rem;
+    background-color: #f69c3b;
+    color: #fff;
+  }
+  .paten .patenbox ul table {
+    table-layout: fixed;
+    font-size: 0.8rem;
+  }
+  .paten .patenbox ul table tr td:nth-child(1) {
+    width: 10rem;
+  }
+  .paten .patenbox ul table tr td:nth-child(3) {
+    width: 10rem;
+  }
+}
+/* ==================================== */
+
+@media (max-width: 540px) {
+  .paten .patenbox ul table th {
+    line-height: 50px;
+    font-size: 0.7rem;
+    background-color: #f69c3b;
+    color: #fff;
+  }
+  .paten .patenbox ul table {
+    table-layout: fixed;
+    font-size: 0.7rem;
+  }
+  .paten .patenbox ul table tr td:nth-child(1) {
+    width: 8rem;
+  }
+  .paten .patenbox ul table tr td:nth-child(3) {
+    width: 8rem;
+  }
+}
+@media (max-width: 500px) {
+  .paten .patenbox {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 8rem;
+  }
+  .paten {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .paten .patenbox ul table th {
+    line-height: 50px;
+    font-size: 0.7rem;
+    background-color: #f69c3b;
+    color: #fff;
+  }
+
+  .paten .patenbox ul {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    padding-top: 50px !important;
+    text-align: center;
+    overflow: overlay;
+    scroll-behavior: auto;
+  }
+  .paten .patenbox ul table {
+    width: 40rem;
+    table-layout: fixed;
+    font-size: 0.7rem;
+    overflow: scroll !important;
+  }
+}

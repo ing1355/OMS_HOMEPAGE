@@ -1,0 +1,607 @@
+:lang(ko) .enImg {
+  display: none;
+}
+:lang(en) .koImg {
+  display: none;
+}
+
+.omface {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.Solutionimg {
+  width: 15rem !important;
+}
+.omface .omfacetextbox {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.omface .omfacetextbox .omfacetitle {
+  width: 80%;
+  margin: 0 auto;
+  height: 350px;
+  background-color: #ebedfd;
+  border-radius: 20px;
+  text-align: center;
+}
+:lang(en) .omface .omfacetextbox .omfacetitle {
+  height: 390px;
+}
+:lang(en) .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+  margin-top: 3.3rem;
+}
+.omface .omfacetextbox .omfacetitle div {
+  float: left;
+  width: 35%;
+}
+
+.omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+  margin-top: 3rem;
+}
+
+.omface .omfacetextbox .omfacetitle div:nth-child(2) {
+  text-align: left;
+  width: 65%;
+}
+
+.omface .omfacetextbox .omfacetitle div:nth-child(2) h1 {
+  width: 15rem;
+  height: auto;
+  text-align: center;
+  border-radius: 100px;
+  color: #fff;
+  background: linear-gradient(180deg, #6d35e1, #3154ee);
+  font-size: 2rem;
+  line-height: auto;
+  margin-top: 3rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.omface .omfacetextbox .omfacetitle div:nth-child(2) h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.omface .omfacetextbox .omfacetitle div:nth-child(2) p {
+  margin-bottom: 20px;
+  padding: 0px 1rem 0 0;
+  font-size: 1.2rem;
+}
+.omface .omfacetextbox .omfacetitle div:nth-child(2) p span {
+  font-size: 1.2rem !important;
+  color: #272727 !important;
+}
+.omface .omfacetextbox .omfacetitle div:nth-child(2) span {
+  font-size: 1rem;
+}
+.omface .omfacetextbox .omfacetitle div:nth-child(2) span img {
+  width: 2rem;
+  margin-right: 0.8rem;
+}
+
+.omface .scenario {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 5rem !important;
+}
+
+.omface .scenario h2 {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+  line-height: 50px;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 900;
+}
+
+.omface .scenario div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.omface .scenario div img {
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 1208px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle {
+    width: 80%;
+    height: 325px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle {
+    height: 360px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 2rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 0.8rem 0;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h3 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.2rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span {
+    font-size: 0.9rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span img {
+    width: 1.7rem;
+    margin-right: 0.8rem;
+  }
+  .omface .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .omface .scenario h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .omface .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle {
+    width: 80%;
+    height: 330px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle {
+    height: 360px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .omface .omfacetextbox .omfacetitle div {
+    float: left;
+    width: 40%;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) {
+    text-align: left;
+    width: 60%;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 1.7rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span {
+    font-size: 0.9rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span img {
+    width: 1.7rem;
+    margin-right: 0.8rem;
+  }
+  .omface .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .omface .scenario h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .omface .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+/* @media (max-width: 1208px) {
+  .omface .omfacetextbox .omfacetitle {
+    background: red !important;
+  }
+} */
+@media (max-width: 834px) {
+  .omface .omfacetextbox .omfacetitle {
+    width: 85%;
+  }
+  .omface .scenario {
+    width: 85%;
+  }
+
+  .omface .scenario h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+/* ==================================================== */
+
+@media (max-width: 768px) {
+  .Solutionimg {
+    width: 20rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle {
+    width: 80%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle {
+    height: 950px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .omface .omfacetextbox .omfacetitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 3.5rem;
+    margin-left: -25px;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h1 {
+    width: 25rem;
+    height: auto;
+    font-size: 2.5rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1.2rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h3 {
+    font-size: 2.3rem;
+    margin-top: 2rem;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.5rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p span {
+    font-size: 1.5rem !important;
+    display: block;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span {
+    font-size: 1.2rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span img {
+    width: 3rem;
+    margin-right: 0.8rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .Solutionimg {
+    width: 17rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle {
+    width: 85%;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle {
+    height: 820px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .omface .omfacetextbox .omfacetitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 3rem !important;
+    margin-left: -25px;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h1 {
+    width: 17rem;
+    height: auto;
+    font-size: 1.8rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem !important;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1.2rem;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 1rem;
+    font-size: 1.2rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p span {
+    font-size: 1.2rem !important;
+    display: block;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span img {
+    width: 2rem;
+    margin-right: 0.8rem;
+  }
+  .omface .scenario {
+    width: 85%;
+    margin-top: 2rem !important;
+  }
+  :lang(en) .omface .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 1rem;
+  }
+  .omface .scenario h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+  }
+
+  .omface .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .Solutionimg {
+    width: 15rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span {
+    font-size: 0.8rem !important;
+    padding: 0 1rem;
+  }
+  .omface .omfacetextbox .omfacetitle {
+    height: 680px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle {
+    height: 750px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .Solutionimg {
+    width: 13rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle {
+    width: 85%;
+    height: 610px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle {
+    height: 670px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h1 {
+    width: 14rem;
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+  .omface .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+  :lang(en) .omface .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .omface .omfacetextbox .omfacetitle {
+    width: 85%;
+    height: 610px;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h3 {
+    font-size: 1.3rem;
+    margin-top: 2rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.9rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p span {
+    font-size: 0.9rem !important;
+  }
+  .Solutionimg {
+    width: 12em !important;
+  }
+
+  :lang(en) .omface .omfacetextbox .omfacetitle {
+    height: 670px;
+  }
+}
+@media (max-width: 280px) {
+  .Solutionimg {
+    width: 11em !important;
+  }
+  .omface .omfacetextbox .omfacetitle {
+    width: 85%;
+    height: 580px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle {
+    height: 650px;
+  }
+  :lang(en) .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h1 {
+    width: 12rem;
+    font-size: 1.3rem;
+    margin-top: 1rem !important;
+    padding: 0.8rem 0;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem !important;
+  }
+
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.8rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) p span {
+    font-size: 0.8rem !important;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span {
+    font-size: 0.7rem;
+    padding: 0 1rem;
+  }
+  .omface .omfacetextbox .omfacetitle div:nth-child(2) span img {
+    width: 1.7rem;
+    margin-right: 0.7rem;
+  }
+  .omface .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.7rem;
+  }
+  :lang(en) .omface .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+}

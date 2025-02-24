@@ -1,0 +1,1764 @@
+:lang(ko) .enCertificateImg {
+  display: none;
+}
+:lang(en) .koCertificateImg {
+  display: none;
+}
+:lang(ko) .enImg {
+  display: none;
+}
+:lang(en) .koImg {
+  display: none;
+}
+:lang(ko) .enBrochure {
+  display: none;
+}
+:lang(en) .koBrochure {
+  display: none;
+}
+body {
+  width: 80rem !important;
+}
+
+.products #Products-slide-tabletpc {
+  display: none;
+}
+
+#Products-slide-tablet {
+  display: none;
+}
+
+/* =================Main================= */
+header {
+  width: 100%;
+  height: 600px;
+  background: url(https://omsecurity.kr/assets/slide1.png) center center no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header .Main-Img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
+  margin-top: auto;
+  margin-left: 4rem;
+}
+header .Main-Img img {
+  margin-left: 1rem;
+  margin-top: 8rem;
+  width: 4.5rem;
+}
+header .Main-Text p span:nth-child(1) {
+  margin-left: 1rem !important;
+}
+header .Main-Text {
+  text-align: left;
+  margin: 0 auto;
+  width: 70rem;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+header .Main-Text h1 {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+header .Main-Text p {
+  font-size: 2.5rem;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
+
+.Main-Text .br {
+  display: none;
+}
+
+/* =================Company================= */
+.Company {
+  width: 100%;
+  height: 150px;
+  background-color: #0064ab;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Company p {
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.Company .Company-br {
+  display: none;
+}
+
+/* =================Products================= */
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  transform: scale(0.7);
+}
+.products {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 30px !important;
+}
+
+.products-Title {
+  padding-top: 80px;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #272727;
+}
+
+#Products-slide {
+  padding-top: 3rem;
+  width: 70rem !important;
+  padding-bottom: 4rem;
+  height: auto !important;
+}
+
+#Products-slide .pSlider .pSliderBox {
+  width: 100% !important;
+  height: 25rem !important;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.products #Products-slide-tablet {
+  display: none;
+}
+
+.products #Products-slide-tabletpc {
+  display: none;
+}
+
+.products #Products-slide .swiper-pagination-bullet {
+  width: 5px !important;
+  height: 5px !important;
+  background: transparent !important;
+  background: rgb(206, 206, 206) !important;
+  opacity: 1 !important;
+  border-radius: 0px !important;
+}
+
+.products #Products-slide .swiper-pagination-bullet-active {
+  width: 30px !important;
+  transition: width 0.5s !important;
+  border-radius: 0px !important;
+  background: #00b0f0 !important;
+  border: 1px solid transparent !important;
+}
+
+.pSlider .pImg {
+  width: 11rem;
+  margin: 0 auto;
+}
+.pSlider .pImg:hover {
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}
+
+.productsText {
+  text-decoration: none;
+}
+
+.productsText h2 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+.productsText p {
+  margin: 0 auto;
+  width: auto;
+  height: 3rem;
+  padding: 0rem 2rem;
+  font-size: 1rem;
+}
+
+.productsText .go {
+  outline: 0;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+  font-size: 1rem;
+  width: 10rem;
+  height: 2.5rem;
+  border: 1px solid #b4b4b4;
+  color: #8b8b8b;
+  line-height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.productsText .go:hover {
+  border: 1px solid #00b0f0;
+  color: #00b0f0;
+  font-weight: 400;
+  transition-duration: 0.2s;
+}
+
+.slideimg1 {
+  background: url(https://omsecurity.kr/assets/slide1.png) center center no-repeat;
+  background-size: cover;
+}
+
+.slideimg2 {
+  background: url(https://omsecurity.kr/assets/slider1.png) center center no-repeat;
+  background-size: cover;
+}
+
+.slideimg3 {
+  background: url(https://omsecurity.kr/assets/slide3.png) center center no-repeat;
+  background-size: cover;
+}
+
+.swiper-button-next {
+  color: #00b0f0 !important;
+  width: 2rem !important;
+}
+
+.swiper-button-prev {
+  color: #00b0f0 !important;
+  width: 2rem !important;
+}
+
+.swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  background: transparent !important;
+  background: #fff !important;
+  opacity: 1 !important;
+  border-radius: 0px !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 40px !important;
+  transition: width 0.5s !important;
+  border-radius: 0px !important;
+  background: #fff !important;
+  border: 1px solid transparent !important;
+}
+
+/* =================Brochure================= */
+
+#Brochure {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  background: url(https://omsecurity.kr/assets/brochure.png) center center no-repeat;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+
+.Brochure .box {
+  width: 100%;
+}
+
+.Brochure-Title {
+  padding-top: 3rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.Brochure-Text {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.Brochure-Down {
+  width: auto;
+  padding: 0rem 3.5rem;
+  height: 3.5rem;
+  outline: 0;
+  background: none;
+  top: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase !important;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: hand;
+  text-align: center;
+  text-transform: capitalize;
+  border: 2px solid #fff;
+  border-radius: 2rem;
+  position: relative;
+  overflow: hidden !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: transparent !important;
+  z-index: 10;
+}
+
+.Brochure-Down:hover {
+  border: 1px solid #6fb8ec;
+  color: #fff !important;
+}
+.Brochure-Down::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #00b0f0;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 1;
+  top: 0;
+  z-index: -12;
+  -moz-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  box-shadow: 2px 0px 14px rgba(0, 176, 240, 0.3);
+}
+
+.Brochure-Down::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #6fecdf;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 0;
+  top: 0;
+  z-index: -15;
+  -webkit-transition: all 0.94s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -moz-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -o-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  box-shadow: 2px 0px 14px rgba(0, 176, 240, 0.3);
+}
+
+.Brochure-Down:hover::before,
+.Brochure-Down:hover::before {
+  opacity: 1;
+  width: 116%;
+}
+
+.Brochure-Down:hover::after,
+.Brochure-Down:hover::after {
+  opacity: 1;
+  width: 120%;
+}
+
+/* =================Recentpost================= */
+
+.Recentpost {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+.Recentpost-Title {
+  padding-top: 80px;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #272727;
+}
+
+.Recentpost-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem !important;
+  width: 70rem;
+  margin: 0 auto;
+}
+
+.Recentpost-box div {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Recentpost-box a {
+  text-decoration: none;
+}
+
+
+.Recentpost-box div p {
+  width: 100%;
+  height: 4rem;
+  font-size: 1.5rem;
+  line-height: 4rem;
+}
+
+.Recentpost-box div a img {
+  margin: 0 auto;
+  width: 22%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Recentpost .go {
+  outline: 0;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+  font-size: 1rem;
+  width: 8rem;
+  height: 2.5rem;
+  border: 1px solid #b4b4b4;
+  color: #8b8b8b;
+  line-height: 2.5rem;
+  cursor: pointer;
+}
+.Recentpost .go:hover {
+  border: 1px solid #00b0f0;
+  color: #00b0f0;
+  font-weight: 400;
+  transition-duration: 0.2s;
+}
+
+/* =================Footer================= */
+
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+@media (max-width: 1208px) {
+  body {
+    width: 100% !important;
+  }
+  header .Main-Img {
+    margin-left: 0.1rem;
+  }
+  header .Main-Img img {
+    margin-top: 8.5rem;
+    width: 4rem;
+  }
+}
+@media (max-width: 1024px) {
+  header {
+    width: 100% !important;
+    height: 600px;
+    background: url(https://omsecurity.kr/assets/slide1.png) center center no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  header .Main-Img {
+    margin-left: 5rem;
+  }
+  header .Main-Img img {
+    margin-left: 1rem;
+    margin-top: 9rem;
+    width: 4.3rem;
+  }
+  header .Main-Text p span:nth-child(1) {
+    margin-left: 1rem;
+  }
+  header .Main-Text {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header .Main-Text h1 {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  header .Main-Text p {
+    font-size: 2.5rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+  }
+
+  /* =================Company================= */
+  .Company {
+    width: 100% !important;
+    height: 150px;
+    background-color: #0064ab;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Company p {
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .Company .Company-br {
+    display: none;
+  }
+
+  /* =================Products================= */
+  .products #Products-slide {
+    display: none;
+  }
+  .products #Products-slide-tabletpc {
+    display: block !important;
+  }
+  .products {
+    width: 100% !important;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 30px !important;
+  }
+
+  .products-Title {
+    padding-top: 80px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #272727;
+  }
+
+  #Products-slide-tabletpc {
+    padding-top: 3rem;
+    width: 80% !important;
+    padding-bottom: 4rem;
+    height: auto !important;
+  }
+
+  #Products-slide-tabletpc .pSlider .pSliderBox {
+    width: 100% !important;
+    height: 25rem !important;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .products #Products-slide-tabletpc .swiper-pagination-bullet {
+    width: 5px !important;
+    height: 5px !important;
+    background: transparent !important;
+    background: rgb(206, 206, 206) !important;
+    opacity: 1 !important;
+    border-radius: 0px !important;
+  }
+
+  .products #Products-slide-tabletpc .swiper-pagination-bullet-active {
+    width: 30px !important;
+    transition: width 0.5s !important;
+    border-radius: 0px !important;
+    background: #00b0f0 !important;
+    border: 1px solid transparent !important;
+  }
+
+  .pSlider .pImg {
+    width: 11rem;
+    margin: 0 auto;
+  }
+  .pSlider .pImg:hover {
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+  }
+
+  .productsText h2 {
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 3rem;
+  }
+
+  .productsText p {
+    margin: 0 auto;
+    width: 80%;
+    height: 3rem;
+    padding: 0rem 0.8rem;
+    font-size: 1rem;
+  }
+
+  .productsText .go {
+    outline: 0;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+    border: 1px solid #b4b4b4;
+    color: #8b8b8b;
+    line-height: 2.5rem;
+    margin-top: 1rem;
+  }
+  .productsText .go:hover {
+    border: 1px solid #00b0f0;
+    color: #00b0f0;
+    font-weight: 400;
+    transition-duration: 0.2s;
+  }
+
+  .swiper-button-next {
+    color: #00b0f0 !important;
+    width: 2rem !important;
+  }
+
+  .swiper-button-prev {
+    color: #00b0f0 !important;
+    width: 2rem !important;
+  }
+
+  .swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+    background: transparent !important;
+    background: #fff !important;
+    opacity: 1 !important;
+    border-radius: 0px !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 40px !important;
+    transition: width 0.5s !important;
+    border-radius: 0px !important;
+    background: #fff !important;
+    border: 1px solid transparent !important;
+  }
+
+  /* =================Brochure================= */
+
+  #Brochure {
+    width: 100% !important;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(https://omsecurity.kr/assets/brochure.png) center center no-repeat;
+    background-size: cover;
+  }
+
+  #Brochure .box {
+    animation-name: stretchRight;
+    -webkit-animation-name: stretchRight;
+
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+
+    transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
+  }
+
+  .Brochure .box {
+    width: 100%;
+    height: 300px;
+  }
+
+  .Brochure-Title {
+    padding-top: 55px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .Brochure-Text {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .Brochure-Down {
+    width: auto;
+    padding: 0rem 3.5rem;
+    height: 3.5rem;
+    outline: 0;
+    background: none;
+    top: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  /* =================Recentpost================= */
+
+  .Recentpost {
+    width: 100% !important;
+    height: 550px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .Recentpost-Title {
+    padding-top: 80px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #272727;
+  }
+
+  .Recentpost-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem !important;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .Recentpost-box div {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .Recentpost-box div p {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.5rem;
+    line-height: 4rem;
+  }
+
+  .Recentpost-box li img {
+    margin: 0 auto;
+    width: 27%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Recentpost .go {
+    outline: 0;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+    border: 1px solid #b4b4b4;
+    color: #8b8b8b;
+    line-height: 2.5rem;
+    cursor: pointer;
+  }
+  .Recentpost .go:hover {
+    border: 1px solid #00b0f0;
+    color: #00b0f0;
+    font-weight: 400;
+    transition-duration: 0.2s;
+  }
+}
+@media (max-width: 768px) {
+  .products #Products-slide {
+    display: none;
+  }
+  .products #Products-slide-tabletpc {
+    display: none !important;
+  }
+  .products #Products-slide-tablet {
+    display: block !important;
+  }
+  header .Main-Img {
+    margin-left: 3rem;
+  }
+  header .Main-Img img {
+    margin-left: 1rem;
+    width: 3.5rem;
+  }
+  header .Main-Text p span:nth-child(1) {
+    margin-left: 1rem;
+  }
+  header .Main-Text {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header .Main-Text h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  header .Main-Text p {
+    font-size: 2.4rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+  }
+
+  /* =================Company================= */
+
+  .Company p {
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  /* =================Products================= */
+
+  .products {
+    width: 100% !important;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 30px !important;
+  }
+
+  .products-Title {
+    padding-top: 60px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #272727;
+  }
+
+  #Products-slide-tablet {
+    padding-top: 3rem;
+    width: 80% !important;
+    padding-bottom: 3rem;
+    height: auto !important;
+  }
+
+  #Products-slide-tablet .pSlider .pSliderBox {
+    width: 100% !important;
+    height: 26rem !important;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .products #Products-slide-tablet .swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+    background: transparent !important;
+    background: rgb(206, 206, 206) !important;
+    opacity: 1 !important;
+    border-radius: 0px !important;
+  }
+
+  .products #Products-slide-tablet .swiper-pagination-bullet-active {
+    width: 40px !important;
+    transition: width 0.5s !important;
+    border-radius: 0px !important;
+    background: #00b0f0 !important;
+    border: 1px solid transparent !important;
+  }
+
+  .pSlider .pImg {
+    width: 11rem;
+    margin: 0 auto;
+  }
+  .pSlider .pImg:hover {
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+  }
+
+  .productsText h2 {
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 3rem;
+  }
+
+  .productsText p {
+    margin: 0 auto;
+    width: 80%;
+    height: 3rem;
+    padding: 0rem 0.8rem;
+    font-size: 1.2rem;
+  }
+
+  /* =================Brochure================= */
+
+  .Brochure .box {
+    width: 100%;
+    height: 300px;
+  }
+
+  .Brochure-Title {
+    padding-top: 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .Brochure-Text {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .Brochure-Down {
+    width: auto;
+    padding: 0rem 3rem;
+    height: 3.2rem;
+    outline: 0;
+    background: none;
+    top: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  /* =================Recentpost================= */
+
+  .Recentpost {
+    width: 100% !important;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .Recentpost-Title {
+    padding-top: 60px;
+    font-size: 2.5rem;
+  }
+
+  .Recentpost-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Recentpost-box div {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .Recentpost-box div p {
+    width: 100%;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    line-height: 3.5rem;
+    margin-top: 1rem;
+  }
+
+  .Recentpost-box li img {
+    margin: 0 auto;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Recentpost .go {
+    outline: 0;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+    border: 1px solid #b4b4b4;
+    color: #8b8b8b;
+    line-height: 2.5rem;
+    cursor: pointer;
+  }
+  .Recentpost .go:hover {
+    border: 1px solid #00b0f0;
+    color: #00b0f0;
+    font-weight: 400;
+    transition-duration: 0.2s;
+  }
+}
+
+@media (max-width: 600px) {
+  .products #Products-slide {
+    display: none;
+  }
+  .products #Products-slide-tabletpc {
+    display: none !important;
+  }
+  .products #Products-slide-tablet {
+    display: block !important;
+  }
+  header {
+    background: url(https://omsecurity.kr/assets/mainmoblieimg.png) center center no-repeat;
+    background-position: center 80px;
+  }
+  header .Main-Img {
+    margin-left: 0.8rem;
+  }
+  header .Main-Img img {
+    width: 3rem;
+  }
+  header .Main-Text p span:nth-child(1) {
+    margin-left: 0rem;
+    display: inline-block;
+  }
+  .Main-Text .br {
+    display: block;
+  }
+
+  header .Main-Text {
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header .Main-Text h1 {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  header .Main-Text p {
+    font-size: 2.5rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    line-height: 3.5rem;
+  }
+
+  /* =================Company================= */
+
+  .Company p {
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+  }
+  .Company p span {
+    display: block;
+  }
+  /* =================Products================= */
+
+  .products {
+    width: 100% !important;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 30px !important;
+  }
+
+  .products-Title {
+    padding-top: 60px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #272727;
+  }
+
+  #Products-slide-tablet {
+    padding-top: 2rem;
+    width: 85% !important;
+    padding-bottom: 3rem;
+    height: auto !important;
+  }
+
+  #Products-slide-tablet .pSlider .pSliderBox {
+    width: 100% !important;
+    height: 26rem !important;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .products #Products-slide-tablet .swiper-pagination-bullet {
+    width: 6px !important;
+    height: 6px !important;
+    background: transparent !important;
+    background: rgb(206, 206, 206) !important;
+    opacity: 1 !important;
+    border-radius: 0px !important;
+  }
+
+  .products #Products-slide-tablet .swiper-pagination-bullet-active {
+    width: 30px !important;
+    transition: width 0.5s !important;
+    border-radius: 0px !important;
+    background: #00b0f0 !important;
+    border: 1px solid transparent !important;
+  }
+
+  .pSlider .pImg {
+    width: 11rem;
+    margin: 0 auto;
+  }
+  .pSlider .pImg:hover {
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+  }
+
+  .productsText h2 {
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 3rem;
+  }
+
+  .productsText p {
+    margin: 0 auto;
+    width: 80%;
+    height: 4rem;
+    padding: 0rem 0rem;
+    font-size: 1.2rem;
+  }
+
+  /* =================Brochure================= */
+
+  .Brochure .box {
+    width: 100%;
+    height: 300px;
+  }
+
+  .Brochure-Title {
+    padding-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .Brochure-Text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 1rem;
+  }
+
+  .Brochure-Down {
+    width: auto;
+    padding: 0rem 2.5rem;
+    height: 3rem;
+    outline: 0;
+    background: none;
+    top: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  /* =================Recentpost================= */
+
+  .Recentpost {
+    width: 100% !important;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Recentpost-Title {
+    padding-top: 60px;
+    font-size: 2.5rem;
+  }
+
+  .Recentpost-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Recentpost-box div {
+    display: flex;
+    flex-direction: column !important;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4rem !important;
+    border-left: 0px !important;
+  }
+
+  .Recentpost-box div:nth-child(2) {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 1rem !important;
+    margin-bottom: 5rem !important;
+  }
+
+  .Recentpost-box div p {
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+  }
+  .Recentpost-box div:nth-child(2) li img {
+    margin-top: 2.5rem;
+  }
+  .Recentpost-box li img {
+    margin: 0 auto;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Recentpost .go {
+    outline: 0;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 1rem;
+    width: 7rem;
+    height: 2rem;
+    border: 1px solid #b4b4b4;
+    color: #8b8b8b;
+    line-height: 2rem;
+    cursor: pointer;
+  }
+  .Recentpost .go:hover {
+    border: 1px solid #00b0f0;
+    color: #00b0f0;
+    font-weight: 400;
+    transition-duration: 0.2s;
+  }
+}
+@media (max-width: 414px) {
+  header .Main-Img img {
+    margin-left: 1rem;
+    width: 3rem;
+  }
+  header .Main-Text {
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header .Main-Text h1 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  header .Main-Text p {
+    font-size: 2.3rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    line-height: 3.5rem;
+  }
+  header .Main-Text p span:nth-child(3) {
+    font-size: 1.2rem !important;
+  }
+  .Recentpost {
+    height: 700px;
+  }
+  .Recentpost-box div {
+    margin-bottom: 2.5rem !important;
+  }
+
+  .Recentpost-box div:nth-child(2) {
+    padding-top: 1.8rem !important;
+    margin-bottom: 4rem !important;
+  }
+}
+@media (max-width: 376px) {
+  header {
+    background: url(https://omsecurity.kr/assets/mainmoblieimg.png) center center no-repeat;
+    background-position: center 90px;
+  }
+  header .Main-Img {
+    margin-left: 0.2rem;
+  }
+  header .Main-Img img {
+    width: 2.8rem;
+  }
+  header .Main-Text {
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header .Main-Text h1 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  header .Main-Text p {
+    font-size: 2rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    line-height: 3rem;
+  }
+
+  /* =================Company================= */
+
+  .Company p {
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+  }
+  .Company p span {
+    display: block;
+  }
+  .Recentpost {
+    width: 100% !important;
+    height: 670px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .productsText p {
+    margin: 0 auto;
+    width: 85%;
+    height: 3rem;
+    padding: 0rem 0rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  header .Main-Img img {
+    width: 2.6rem;
+  }
+  header .Main-Text {
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header .Main-Text h1 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  header .Main-Text p {
+    font-size: 2rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    line-height: 3.5rem;
+  }
+
+  header .Main-Text p span:nth-child(3) {
+    font-size: 1rem !important;
+  }
+  /* =================Company================= */
+
+  .Company p {
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 2.1rem;
+  }
+  .Company p span {
+    display: block;
+  }
+  #Products-slide-tablet .pSlider .pSliderBox {
+    height: 24rem !important;
+  }
+  .products {
+    width: 100% !important;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 30px !important;
+  }
+
+  .products-Title {
+    padding-top: 60px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #272727;
+  }
+
+  #Products-slide-tablet {
+    padding-top: 2rem;
+    width: 90% !important;
+    padding-bottom: 2rem;
+    height: auto !important;
+  }
+
+  .pSlider .pImg {
+    width: 9rem;
+    margin: 0 auto;
+  }
+
+  .productsText h2 {
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 3rem;
+  }
+
+  .productsText p {
+    margin: 0 auto;
+    width: 80%;
+    height: 4rem;
+    padding: 0rem 0rem;
+    font-size: 1rem;
+  }
+
+  .productsText .go {
+    outline: 0;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 0.9rem;
+    width: 7rem;
+    height: 2.2rem;
+    border: 1px solid #b4b4b4;
+    color: #8b8b8b;
+    line-height: 2.2rem;
+    margin-top: 0.5rem;
+  }
+  /* ====================== */
+  .Brochure .box {
+    width: 100%;
+    height: 300px;
+  }
+
+  .Brochure-Title {
+    padding-top: 3.5rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .Brochure-Text {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 1.5rem;
+  }
+
+  .Brochure-Down {
+    width: auto;
+    padding: 0rem 2.5rem;
+    height: 3rem;
+    outline: 0;
+    background: none;
+    top: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .Recentpost {
+    height: 680px;
+  }
+
+  .Recentpost-Title {
+    padding-top: 60px;
+    font-size: 2.2rem;
+  }
+
+  .Recentpost-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Recentpost-box div {
+    display: flex;
+    flex-direction: column !important;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    border-left: 0px !important;
+  }
+
+  .Recentpost-box li img {
+    margin: 0 auto;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Recentpost .go {
+    outline: 0;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 0.9rem;
+    width: 7rem;
+    height: 2.2rem;
+    border: 1px solid #b4b4b4;
+    color: #8b8b8b;
+    line-height: 2.2rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 280px) {
+  header .Main-Img img {
+    width: 2.2rem;
+  }
+  header .Main-Text p span:nth-child(3) {
+    font-size: 0.8rem !important;
+  }
+  header .Main-Text {
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header .Main-Text h1 {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  header .Main-Text p {
+    font-size: 1.7rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    line-height: 3rem;
+  }
+  header .Main-Text p span:nth-child(3) {
+    font-size: 1rem !important;
+  }
+  /* =================Company================= */
+
+  .Company p {
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+  }
+
+  #Products-slide-tablet .pSlider .pSliderBox {
+    height: 21rem !important;
+  }
+  .products {
+    width: 100% !important;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 30px !important;
+  }
+
+  .products-Title {
+    padding-top: 60px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #272727;
+  }
+
+  #Products-slide-tablet {
+    padding-top: 2rem;
+    width: 90% !important;
+    padding-bottom: 2rem;
+    height: auto !important;
+  }
+
+  .pSlider .pImg {
+    width: 8rem;
+    margin: 0 auto;
+  }
+
+  .productsText h2 {
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 3rem;
+  }
+
+  .productsText p {
+    margin: 0 auto;
+    width: 80%;
+    height: 3rem;
+    padding: 0rem 0rem;
+    font-size: 0.8rem;
+  }
+
+  .productsText .go {
+    outline: 0;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 0.7rem;
+    width: 5rem;
+    height: 2rem;
+    border: 1px solid #b4b4b4;
+    color: #8b8b8b;
+    line-height: 2rem;
+    margin-top: 0rem;
+  }
+  /* ====================== */
+  .Brochure .box {
+    width: 100%;
+    height: 300px;
+  }
+
+  .Brochure-Title {
+    padding-top: 3.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .Brochure-Text {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1.5rem;
+  }
+
+  .Brochure-Down {
+    width: auto;
+    padding: 0rem 2rem;
+    height: 2.5rem;
+    outline: 0;
+    background: none;
+    top: 1rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  .Recentpost {
+    height: 620px;
+  }
+
+  .Recentpost-Title {
+    padding-top: 60px;
+    font-size: 2rem;
+  }
+
+  .Recentpost-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Recentpost-box div {
+    display: flex;
+    flex-direction: column !important;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    border-left: 0px !important;
+  }
+
+  .Recentpost-box li img {
+    margin: 0 auto;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Recentpost .go {
+    outline: 0;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 0.7rem;
+    width: 5rem;
+    height: 2rem;
+    border: 1px solid #b4b4b4;
+    color: #8b8b8b;
+    line-height: 2rem;
+    margin-top: 0rem;
+  }
+}

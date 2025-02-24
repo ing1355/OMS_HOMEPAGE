@@ -1,0 +1,634 @@
+/* ---------------------------------------- */
+
+:lang(ko) .enImg {
+  display: none;
+}
+:lang(en) .koImg {
+  display: none;
+}
+
+.Certificate-img {
+  display: flex;
+  flex-direction: row;
+}
+.Certificate-img img {
+  width: 5.5rem !important;
+  margin-right: 0.8rem;
+}
+
+.scapsule {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.Solutionimg {
+  width: 15rem !important;
+}
+.scapsule .scapsuletextbox {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.scapsule .scapsuletextbox .scapsuletitle {
+  width: 80%;
+  margin: 0 auto;
+  height: 350px;
+  background-color: #e5f9f5;
+  border-radius: 20px;
+  text-align: center;
+}
+:lang(en) .scapsule .scapsuletextbox .scapsuletitle {
+  height: 415px;
+}
+:lang(en) .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+  margin-top: 3.3rem;
+}
+.scapsule .scapsuletextbox .scapsuletitle div {
+  float: left;
+  width: 35%;
+}
+
+.scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+  margin-top: 3rem;
+}
+
+.scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) {
+  text-align: left;
+  width: 65%;
+}
+
+.scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h1 {
+  width: 15rem;
+  height: auto;
+  text-align: center;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #00c29b;
+  font-size: 2rem;
+  line-height: auto;
+  margin-top: 3rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  display: inline-block;
+}
+
+.scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline;
+}
+.scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p {
+  margin-bottom: 20px;
+  padding: 0px 1rem 0 0;
+  font-size: 1.2rem;
+}
+.scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p span {
+  font-size: 1.2rem !important;
+  color: #272727 !important;
+}
+.scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) span {
+  font-size: 1rem;
+}
+
+.scapsule .scenario {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 5rem !important;
+}
+
+.scapsule .scenario h2 {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+  line-height: 50px;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 900;
+}
+
+.scapsule .scenario div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.scapsule .scenario div img {
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 1208px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle {
+    width: 80%;
+    height: 325px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle {
+    height: 400px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 2rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 0.8rem 0;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 h4 {
+    font-size: 1.7rem;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.2rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) span {
+    font-size: 0.9rem;
+  }
+
+  .scapsule .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .scapsule .scenario h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .scapsule .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle {
+    width: 80%;
+    height: 330px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle {
+    height: 420px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div {
+    float: left;
+    width: 40%;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) {
+    text-align: left;
+    width: 60%;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 1.7rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 h4 {
+    font-size: 1.5rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) span {
+    font-size: 0.9rem;
+  }
+
+  .scapsule .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .scapsule .scenario h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .scapsule .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 834px) {
+  .scapsule .scapsuletextbox .scapsuletitle {
+    width: 85%;
+  }
+  .scapsule .scenario {
+    width: 85%;
+  }
+
+  .scapsule .scenario h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+/* ==================================================== */
+
+@media (max-width: 768px) {
+  .Certificate-img2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .Certificate-img2 img {
+    width: 6rem !important;
+  }
+  .Solutionimg {
+    width: 20rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle {
+    width: 80%;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle {
+    height: 1090px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 3.5rem;
+    margin-left: -25px;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+  .videoButton {
+    padding: 0 30px;
+    height: 55px;
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    position: relative;
+    top: 0px;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h1 {
+    width: 25rem;
+    height: auto;
+    font-size: 2.5rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1.2rem 0;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 {
+    font-size: 2.3rem;
+    margin-top: 2rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 h4 {
+    font-size: 2.3rem;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.5rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p span {
+    font-size: 1.5rem !important;
+    display: block;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) span {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .Solutionimg {
+    width: 17rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle {
+    width: 85%;
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle {
+    height: 900px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 3rem !important;
+    margin-left: -25px;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h1 {
+    width: 17rem;
+    height: auto;
+    font-size: 1.8rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 h4 {
+    font-size: 1.8rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1.2rem;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 1rem;
+    font-size: 1.2rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p span {
+    font-size: 1.2rem !important;
+    display: block;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0rem;
+  }
+
+  .scapsule .scenario {
+    width: 85%;
+    margin-top: 2rem !important;
+  }
+  :lang(en) .scapsule .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 1rem;
+  }
+  .scapsule .scenario h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+  }
+
+  .scapsule .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .mobile-span-img {
+    display: block;
+    margin-top: 1rem;
+  }
+  .mobile-span-img img {
+    width: 20% !important;
+  }
+  .Solutionimg {
+    width: 15rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 h4 {
+    font-size: 1.5rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) span {
+    font-size: 0.8rem !important;
+    padding: 0 1rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle {
+    height: 740px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle {
+    height: 820px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 0rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .Solutionimg {
+    width: 13rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle {
+    width: 85%;
+    height: 715px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle {
+    height: 800px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 0rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h1 {
+    width: 14rem;
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 h4 {
+    display: block !important;
+  }
+  .scapsule .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+  :lang(en) .scapsule .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .Solutionimg {
+    width: 12em !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle {
+    width: 85%;
+    height: 700px;
+  }
+
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle {
+    height: 820px;
+  }
+}
+@media (max-width: 280px) {
+  .Solutionimg {
+    width: 11em !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle {
+    width: 85%;
+    height: 630px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle {
+    height: 700px;
+  }
+  :lang(en) .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h1 {
+    width: 12rem;
+    font-size: 1.3rem;
+    margin-top: 1rem !important;
+    padding: 0.8rem 0;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) h3 h4 {
+    font-size: 1.2rem;
+  }
+
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.8rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) p span {
+    font-size: 0.8rem !important;
+  }
+  .scapsule .scapsuletextbox .scapsuletitle div:nth-child(2) span {
+    font-size: 0.7rem;
+    padding: 0 0rem;
+  }
+
+  .scapsule .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.7rem;
+  }
+  :lang(en) .scapsule .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+}

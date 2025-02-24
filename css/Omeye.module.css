@@ -1,0 +1,856 @@
+:lang(ko) .enImg {
+  display: none ;
+}
+:lang(en) .koImg {
+  display: none ;
+}
+:lang(ko) .enVideo {
+  display: none;
+}
+:lang(en) .koVideo {
+  display: none;
+}
+
+.mobile-div-span {
+  width: 100% !important;
+}
+.pay-box {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  background-color: #d3e6f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* :lang(en) .pay-box.epp {
+  background: #fbb22cb0 url(https://omsecurity.kr/assets/footer_logo_ppsep.png) no-repeat 97% 90% / 6%;
+}
+
+:lang(en) .pay-box.nep {
+  background: url(https://omsecurity.kr/assets/footer_logo_nep.png) no-repeat 97% 90% / 6%, linear-gradient(rgba(51,203,152,.8) 30%, rgba(51,203,152,.33));
+  color: white;
+}
+
+:lang(en) .pay-box.inno {
+  background: #d3e6f4 url(https://omsecurity.kr/assets/footer_logo_innovative.png) no-repeat 97% 90% / 6%;
+} */
+.pay-box .bg {
+  position: absolute;
+  right: 2rem;
+  bottom: 1.5rem;
+  width: 20%;
+}
+.pay-box a {
+  color: inherit;
+}
+.pay-box h1 {
+  text-align: center;
+  font-weight: bold;
+  word-break: keep-all;
+}
+.pay-box button {
+  margin-top: 1rem;
+  padding: 0.7rem 2rem;
+  border: 0;
+  outline: 0;
+  background-color: #063d64;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.pay-box.nep {
+  background: url(https://omsecurity.kr/assets/footer_logo_nep.png) no-repeat 97% 90% / 6%, linear-gradient(rgba(51,203,152,.8) 30%, rgba(51,203,152,.33));
+  color: white;
+  /* background:#a1ffde url(https://omsecurity.kr/assets/footer_logo_nep.png) no-repeat 97% 90% / 6%; */
+}
+
+.pay-box.nep {
+  position: relative;
+}
+
+.pay-box.epp {
+  background: #fbb22cb0 url(https://omsecurity.kr/assets/footer_logo_ppsep.png) no-repeat 97% 90% / 6%;
+}
+
+.pay-box.inno {
+  background: #d3e6f4 url(https://omsecurity.kr/assets/footer_logo_innovative.png) no-repeat 97% 90% / 6%; 
+}
+
+.pay-box.epp button {
+  background-color: #ffb11f;
+}
+
+.pay-box.nep img{
+  width: 10%;
+  mix-blend-mode: multiply;
+  position: absolute;
+  right: 8%;
+  bottom: 40px;
+  opacity: .3;
+}
+
+.pay-box.nep button {
+  background-color: #33cb98;
+}
+
+.pay-box button:hover {
+  background-color: #000 !important;
+}
+
+
+.Certificate-img {
+  display: flex;
+  flex-direction: row;
+}
+.Certificate-img img {
+  width: 5.5rem !important;
+  margin-right: 0.8rem;
+}
+
+.omeye {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.Solutionimg {
+  width: 15rem !important;
+}
+.omeye .omeyetextbox {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.omeye .omeyetextbox .omeyetitle {
+  width: 80%;
+  margin: 0 auto;
+  height: 380px;
+  background-color: #e8eef4;
+  border-radius: 20px;
+  text-align: center;
+}
+:lang(en) .omeye .omeyetextbox .omeyetitle {
+  height: 400px;
+}
+:lang(en) .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+  margin-top: 3.3rem;
+}
+.omeye .omeyetextbox .omeyetitle div {
+  float: left;
+  width: 35%;
+}
+
+.omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+  margin-top: 3rem;
+}
+
+.omeye .omeyetextbox .omeyetitle div:nth-child(2) {
+  text-align: left;
+  width: 65%;
+}
+
+.omeye .omeyetextbox .omeyetitle div:nth-child(2) h1 {
+  width: 15rem;
+  height: auto;
+  text-align: center;
+  border-radius: 100px;
+  color: #fff;
+  background: url("https://omsecurity.kr/assets/omeyeh1.png");
+  font-size: 2rem;
+  line-height: auto;
+  margin-top: 3rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  display: inline-block;
+}
+
+.omeye .omeyetextbox .omeyetitle div:nth-child(2) h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.omeye .omeyetextbox .omeyetitle div:nth-child(2) p {
+  margin-bottom: 20px;
+  padding: 0px 1rem 0 0;
+  font-size: 1.2rem;
+}
+.omeye .omeyetextbox .omeyetitle div:nth-child(2) p span {
+  font-size: 1.2rem !important;
+  color: #272727 !important;
+}
+.omeye .omeyetextbox .omeyetitle div:nth-child(2) span {
+  font-size: 1rem;
+}
+
+.omeye .scenario {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 5rem !important;
+}
+
+.omeye .scenario h2 {
+  width: 100%;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 900;
+}
+
+.omeye .scenario div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.omeye .scenario div img {
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+iframe {
+  height: 539px;
+  width: 100%;
+  min-height: 140px;
+}
+
+.omeye .scenario div video {
+  width: 100%;
+  text-align: center;
+}
+
+.mobile-div-span span {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1208px) {
+  .pay-box a {
+    color: inherit;
+  }
+  .pay-box button {
+    margin-top: 1rem;
+    padding: 0.7rem 2rem;
+    border: 0;
+    outline: 0;
+    background-color: #063d64;
+    color: #fff;
+    border-radius: 30px;
+  }
+  .Certificate-img {
+    display: flex;
+    flex-direction: row;
+    margin-top: -1rem;
+  }
+  .Certificate-img img {
+    width: 5rem !important;
+    margin-right: 0.8rem;
+  }
+  .Certificate-img2 img {
+    width: 4rem !important;
+    margin-right: 0.8rem;
+  }
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .omeye .omeyetextbox .omeyetitle {
+    width: 80%;
+    height: 325px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle {
+    height: 360px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div {
+    float: left;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) {
+    text-align: left;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 2rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 0.8rem 0;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h3 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.2rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) span {
+    font-size: 0.9rem;
+  }
+
+  .omeye .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .omeye .scenario h2 {
+    width: 100%;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .omeye .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .mobile-div-span {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mobile-div-span span {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .mobile-div-span span img {
+    height: 2rem;
+    width: 2rem;
+  }
+  .mobile-div-span p {
+    margin-bottom: 0 !important;
+  }
+  .omeye .omeyetextbox .omeyetitle {
+    width: 80%;
+    height: 330px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle {
+    height: 420px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div {
+    float: left;
+    width: 40%;
+  }
+  .videoButton {
+    margin-left: 0;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) {
+    text-align: left;
+    width: 60%;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 1.7rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) span {
+    font-size: 0.9rem;
+  }
+
+  .omeye .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .omeye .scenario h2 {
+    font-size: 1.2rem;
+  }
+
+  .omeye .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 834px) {
+  .omeye .omeyetextbox .omeyetitle {
+    width: 85%;
+  }
+  .omeye .scenario {
+    width: 85%;
+  }
+
+  .omeye .scenario h2 {
+    width: 100%;
+  }
+}
+/* ==================================================== */
+
+@media (max-width: 768px) {
+  iframe {
+    height: 360px;
+    width: 100%;
+  }
+  .Certificate-img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .Certificate-img img {
+    width: 8rem !important;
+  }
+  .Certificate-img2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .Certificate-img2 img {
+    width: 6rem !important;
+  }
+  .Solutionimg {
+    width: 20rem !important;
+  }
+  .omeye .omeyetextbox .omeyetitle {
+    width: 80%;
+    height: 940px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle {
+    height: 1000px;
+  }
+
+  :lang(en) .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div {
+    float: center;
+
+    width: 100%;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 3.5rem;
+    margin-left: -25px;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h1 {
+    width: 25rem;
+    height: auto;
+    font-size: 2.5rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1.2rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h3 {
+    font-size: 2.3rem;
+    margin-top: 2rem;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.5rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p span {
+    font-size: 1.5rem !important;
+    display: block;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) span {
+    font-size: 1.2rem;
+  }
+}
+
+/* --------------------------------------------- */
+
+@media (max-width: 540px) {
+  iframe {
+    height: 260px;
+    width: 100%;
+  }
+  .pay-box h1 {
+    text-align: center;
+    word-break: keep-all;
+    font-size: 1.5rem;
+  }
+  .pay-box, .pay-box.epp {
+    background-position: 50% 95%;
+    background-size: 12%;
+  }
+  :lang(en) .pay-box {
+    background-position: 50% 95%;
+    background-size: 12%;
+  }
+  .pay-box.nep {
+    background-position: 50% 95%;
+    background-size: 12%;
+  }
+  .pay-box.inno {
+    background-position: 50% 95%;
+    background-size: 12%;
+  }
+  /* .pay-box.nep img {
+    right: 50%;
+    bottom: 1.5rem;
+    transform: translateX(50%); 
+    width: 12%;
+  } */
+  .pay-box.epp p {
+    display: none;
+  }
+  .Solutionimg {
+    width: 17rem !important;
+  }
+  .omeye .omeyetextbox .omeyetitle {
+    width: 85%;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .mobile-div-span {
+    padding-left: 1rem;
+  }
+  :lang(ko) .mobile-div-span {
+    padding-left: 5rem;
+  }
+
+  :lang(en) .omeye .omeyetextbox .omeyetitle {
+    height: 850px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 3rem !important;
+    margin-left: -25px;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h1 {
+    width: 17rem;
+    height: auto;
+    font-size: 1.8rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem !important;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1.2rem;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 1rem;
+    font-size: 1.2rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p span {
+    font-size: 1.2rem !important;
+    display: block;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+
+  .omeye .scenario {
+    width: 85%;
+    margin-top: 2rem !important;
+  }
+  :lang(en) .omeye .scenario h2 {
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+  }
+  .omeye .scenario h2 {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .omeye .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .Solutionimg {
+    width: 15rem !important;
+  }
+
+  .Certificate-img img {
+    width: 7rem !important;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .Certificate-img2 img {
+    width: 7rem !important;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .Certificate-img2 img {
+    width: 5rem !important;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p {
+    margin-top: 0 !important;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem !important;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) span {
+    font-size: 0.8rem !important;
+    padding: 0 1rem;
+  }
+  .omeye .omeyetextbox .omeyetitle {
+    height: 750px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle {
+    height: 800px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .pay-box p {
+    padding: 0 25px;
+  }
+  /* .pay-box .bg,
+  .pay-box.nep img {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+  } */
+  .Certificate-img img {
+    width: 5.5rem !important;
+  }
+  .Certificate-img2 img {
+    width: 5.5rem !important;
+  }
+  .Certificate-img2 img {
+    width: 4.2rem !important;
+  }
+  .Solutionimg {
+    width: 13rem !important;
+  }
+  .omeye .omeyetextbox .omeyetitle {
+    width: 85%;
+    height: 670px;
+  }
+  .mobile-div-span p {
+    font-size: 0.8rem !important;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle {
+    height: 720px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h1 {
+    width: 14rem;
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+  .omeye .scenario h2 {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+  }
+  :lang(en) .omeye .scenario h2 {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .Solutionimg {
+    width: 12em !important;
+  }
+  .omeye .omeyetextbox .omeyetitle {
+    width: 85%;
+    height: 650px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle {
+    height: 740px;
+  }
+  .videoButton {
+    height: 40px;
+    font-size: 1rem;
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 280px) {
+  .videoButton {
+    height: 40px;
+    font-size: 0.9rem;
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+    padding: 0 10px;
+  }
+  .Solutionimg {
+    width: 11em !important;
+  }
+  :lang(ko) .mobile-div-span {
+    padding-left: 0.5rem;
+  }
+  .omeye .omeyetextbox .omeyetitle {
+    width: 85%;
+    height: 600px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle {
+    height: 690px;
+  }
+  :lang(en) .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  :lang(en) .mobile-div-span {
+    padding-left: 0.5rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) span {
+    font-size: 0.8rem;
+    padding: 0 1rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h1 {
+    width: 12rem;
+    font-size: 1.3rem;
+    margin-top: 1rem !important;
+    padding: 0.8rem 0;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem !important;
+  }
+
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.8rem;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) p span {
+    font-size: 0.8rem !important;
+  }
+  .omeye .omeyetextbox .omeyetitle div:nth-child(2) span {
+    font-size: 0.7rem;
+    padding: 0 1rem;
+  }
+
+  .omeye .scenario h2 {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  :lang(en) .omeye .scenario h2 {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}

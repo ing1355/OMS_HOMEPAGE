@@ -1,0 +1,611 @@
+/* ---------------------------------------- */
+
+:lang(ko) .enImg {
+  display: none;
+}
+:lang(en) .koImg {
+  display: none;
+}
+
+.pc4 {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.Solutionimg {
+  width: 15rem !important;
+}
+.pc4 .pc4textbox {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.pc4 .pc4textbox .pc4title {
+  width: 80%;
+  margin: 0 auto;
+  height: 350px;
+  background-color: #ebf8ff;
+  border-radius: 20px;
+  text-align: center;
+}
+:lang(en) .pc4 .pc4textbox .pc4title {
+  height: 380px;
+}
+:lang(en) .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+  margin-top: 3.3rem;
+}
+.pc4 .pc4textbox .pc4title div {
+  float: left;
+  width: 35%;
+}
+
+.pc4 .pc4textbox .pc4title div:nth-child(1) img {
+  margin-top: 3rem;
+}
+
+.pc4 .pc4textbox .pc4title div:nth-child(2) {
+  text-align: left;
+  width: 65%;
+}
+
+.pc4 .pc4textbox .pc4title div:nth-child(2) h1 {
+  width: 20rem;
+  height: auto;
+  text-align: center;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #39beff;
+  font-size: 2rem;
+  line-height: auto;
+  margin-top: 3rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.pc4 .pc4textbox .pc4title div:nth-child(2) h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.pc4 .pc4textbox .pc4title div:nth-child(2) h3 h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline;
+}
+.pc4 .pc4textbox .pc4title div:nth-child(2) p {
+  margin-bottom: 20px;
+  padding: 0px 1rem 0 0;
+  font-size: 1.2rem;
+}
+.pc4 .pc4textbox .pc4title div:nth-child(2) p span {
+  font-size: 1.2rem !important;
+  color: #272727 !important;
+}
+
+.pc4 .scenario {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 5rem !important;
+}
+
+.pc4 .scenario h2 {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+  line-height: 50px;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 900;
+}
+
+.pc4 .scenario div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.pc4 .scenario div img {
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 1208px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .pc4 .pc4textbox .pc4title {
+    width: 80%;
+    height: 325px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title {
+    height: 360px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 2rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 0.8rem 0;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 h4 {
+    font-size: 1.7rem;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.2rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .pc4 .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .pc4 .scenario h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .pc4 .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+  .pay-box.ds {
+    background: #d3e6f4 url("https://omsecurity.kr/assets/pps-dsm-bg.png") no-repeat 97% 90% / 12rem;
+  }
+  .pay-box.ds p{
+    font-size: 1.5rem;
+  } 
+  :lang(en) .pay-box.ds {
+    background: #d3e6f4 url("https://omsecurity.kr/assets/pps-dsm-bgen.png") no-repeat 97% 90% / 12rem;
+  }
+
+@media (max-width: 1024px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .pc4 .pc4textbox .pc4title {
+    width: 80%;
+    height: 330px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title {
+    height: 360px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .pc4 .pc4textbox .pc4title div {
+    float: left;
+    width: 40%;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) {
+    text-align: left;
+    width: 60%;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 1.7rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 h4 {
+    font-size: 1.5rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .pc4 .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .pc4 .scenario h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .pc4 .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 834px) {
+  .pc4 .pc4textbox .pc4title {
+    width: 85%;
+  }
+  .pc4 .scenario {
+    width: 85%;
+  }
+
+  .pc4 .scenario h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+/* ==================================================== */
+
+@media (max-width: 768px) {
+  .Certificate-img2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .Certificate-img2 img {
+    width: 6rem !important;
+  }
+  .Solutionimg {
+    width: 20rem !important;
+  }
+  .pc4 .pc4textbox .pc4title {
+    width: 80%;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title {
+    height: 880px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .pc4 .pc4textbox .pc4title div {
+    float: center;
+    width: 100%;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 3.5rem;
+    margin-left: -25px;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h1 {
+    width: 25rem;
+    height: auto;
+    font-size: 2.5rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1.2rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 {
+    font-size: 2.3rem;
+    margin-top: 2rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 h4 {
+    font-size: 2.3rem;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.5rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p span {
+    font-size: 1.5rem !important;
+    display: block;
+  }
+}
+
+@media (max-width: 540px) {
+  .pay-box.ds {
+    background-position: 50% 95%;
+    background-size: 30%;
+  }
+  .pay-box.ds p{
+    display: none;
+  }
+  :lang(en) .pay-box.ds {
+    background-position: 50% 95%;
+    background-size: 30%;
+  }
+  .Certificate-img2 img {
+    margin-right: 0 !important;
+  }
+
+  .Solutionimg {
+    width: 17rem !important;
+  }
+  .pc4 .pc4textbox .pc4title {
+    width: 85%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title {
+    height: 740px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .pc4 .pc4textbox .pc4title div {
+    float: center;
+    width: 100%;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 3rem !important;
+    margin-left: -25px;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h1 {
+    width: 17rem;
+    height: auto;
+    font-size: 1.8rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem !important;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 h4 {
+    font-size: 1.8rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1.2rem;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 1rem;
+    font-size: 1.2rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p span {
+    font-size: 1.2rem !important;
+    display: block;
+  }
+
+  .pc4 .scenario {
+    width: 85%;
+    margin-top: 2rem !important;
+  }
+  :lang(en) .pc4 .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 1rem;
+  }
+  .pc4 .scenario h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+  }
+
+  .pc4 .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .Solutionimg {
+    width: 15rem !important;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 {
+    font-size: 1.4rem;
+    margin-top: 2rem !important;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 h4 {
+    font-size: 1.4rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .pc4 .pc4textbox .pc4title {
+    height: 630px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title {
+    height: 690px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem !important;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 h4 {
+    font-size: 1.5rem;
+  }
+  .Solutionimg {
+    width: 13rem !important;
+  }
+  .pc4 .pc4textbox .pc4title {
+    width: 85%;
+    height: 610px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title {
+    height: 670px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h1 {
+    width: 14rem;
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 h4 {
+    display: block !important;
+  }
+  .pc4 .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+  :lang(en) .pc4 .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .pc4 .pc4textbox .pc4title {
+    width: 85%;
+    height: 580px;
+  }
+  .Solutionimg {
+    width: 12em !important;
+  }
+
+  :lang(en) .pc4 .pc4textbox .pc4title {
+    height: 650px;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 {
+    font-size: 1.3rem;
+    margin-top: 2rem !important;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 h4 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 280px) {
+  .Solutionimg {
+    width: 11em !important;
+  }
+  .pc4 .pc4textbox .pc4title {
+    width: 85%;
+    height: 560px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title {
+    height: 620px;
+  }
+  :lang(en) .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h1 {
+    width: 12rem;
+    font-size: 1.3rem;
+    margin-top: 1rem !important;
+    padding: 0.8rem 0;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem !important;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) h3 h4 {
+    font-size: 1.2rem;
+  }
+
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.8rem;
+  }
+  .pc4 .pc4textbox .pc4title div:nth-child(2) p span {
+    font-size: 0.8rem !important;
+  }
+
+  .pc4 .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.7rem;
+  }
+  :lang(en) .pc4 .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+}

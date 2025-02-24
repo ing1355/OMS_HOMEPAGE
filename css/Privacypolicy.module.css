@@ -1,0 +1,239 @@
+/* .navbar {
+  display: none;
+}
+
+.Footer {
+  display: none;
+} */
+
+.privacypolicy {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.privacypolicy .privacypolicyTitleBox {
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  background-color: cadetblue;
+  line-height: 50px;
+  display: inline-block;
+}
+
+.privacypolicy .missingmomLogo {
+  width: 20% !important;
+  display: inline-block;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.privacypolicy h1 {
+  font-size: 40px;
+  background-color: #14d7c8;
+  width: 220px;
+  height: 70px;
+  border-radius: 100px;
+  text-align: left;
+  line-height: 70px;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 100px;
+}
+.privacypolicy .scenario {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px !important;
+}
+
+.privacypolicy .scenario h2 {
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.55);
+  line-height: 50px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.55);
+  margin-bottom: 0px;
+  margin-top: 40px;
+  font-weight: 900;
+}
+
+.privacypolicy .scenario div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 20px !important;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+.privacypolicy .scenario div img {
+  margin-top: 10px;
+  width: 40vh;
+  min-width: 40vw;
+  text-align: center;
+}
+
+.privacypolicy .go {
+  outline: 0;
+  text-align: center;
+  /* margin: 0 auto; */
+  background-color: #fff;
+  font-size: 15px !important;
+  width: 15vh !important;
+  height: 50px;
+  margin-top: 2vh;
+  border: 1px solid #b4b4b4 !important;
+  color: #8b8b8b !important;
+  line-height: 50px;
+  cursor: pointer;
+}
+.privacypolicy .go:hover {
+  border: 1px solid #00b0f0 !important;
+  color: #00b0f0 !important;
+  font-weight: bold !important;
+  transition-duration: 0.2s !important;
+}
+@media (max-width: 1024px) {
+  .privacypolicy .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .privacypolicy .scenario div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+  .privacypolicy .scenario div img {
+    margin-top: 0px;
+    width: 60vh;
+    min-width: 40vw;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .privacypolicy h1 {
+    font-size: 30px;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+  }
+  .privacypolicy .scenario {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 50px !important;
+  }
+
+  .privacypolicy .scenario div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+  .privacypolicy .scenario div img {
+    width: 64vh;
+    min-width: 40vw;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 414px) {
+  .privacypolicy h1 {
+    font-size: 30px;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+  }
+  .privacypolicy .scenario {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 50px !important;
+  }
+
+  .privacypolicy .scenario div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+  .privacypolicy .scenario div img {
+    width: 45vh;
+  }
+  .privacypolicy .go {
+    font-size: 12px !important;
+    width: 15vh !important;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .privacypolicy .go:hover {
+    border: 1px solid #00b0f0 !important;
+    color: #00b0f0 !important;
+    font-weight: bold !important;
+    transition-duration: 0.2s !important;
+  }
+  .privacypolicy .scenario h2 {
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+    line-height: 50px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 376px) {
+  .privacypolicy .scenario div img {
+    width: 40vh;
+  }
+}
+
+@media (max-width: 280px) {
+  .privacypolicy h1 {
+    font-size: 20px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 70px;
+  }
+  .privacypolicy .scenario {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px !important;
+  }
+
+  .privacypolicy .scenario div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+  .privacypolicy .scenario div img {
+    width: 35vh;
+  }
+  .privacypolicy .go {
+    font-size: 8px !important;
+    width: 11vh !important;
+    height: 30px;
+    line-height: 30px;
+  }
+  .privacypolicy .scenario h2 {
+    height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+    line-height: 50px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}

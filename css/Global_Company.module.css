@@ -1,0 +1,253 @@
+.Company-main {
+  width: 100%;
+  height: 600px;
+  background: url(https://omsecurity.kr/assets/company.png) center center no-repeat;
+  background-size: cover;
+}
+
+.Company-main h1 {
+  font-size: 8rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 700px;
+}
+
+.ClickMenu {
+  background-color: #fff;
+}
+.ClickMenu .menu p {
+  width: 100%;
+  margin-top: 15px;
+}
+.ClickMenu .menu {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  /* line-height: 80px; */
+  font-size: 1rem;
+  align-items: center;
+}
+
+.ClickMenu .menu button {
+  font-weight: 500;
+  font-family: "NanumSquare", sans-serif !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px;
+  color: #272727;
+  cursor: pointer;
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid #fff;
+  border-radius: 40px 0 40px 0;
+  position: relative;
+  overflow: hidden !important;
+  overflow-wrap: break-word;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: transparent !important;
+  z-index: 10;
+  width: 11.9rem;
+  font-family: "NanumSquare", sans-serif !important;
+}
+
+.ClickMenu .menu button.select {
+  font-weight: bold;
+  background-color: #00b0f0 !important;
+  border-radius: 40px 0px 40px 0;
+  color: #fff !important;
+  overflow-wrap: break-word;
+}
+
+.ClickMenu .menu Button.select p {
+  color: #fff !important;
+}
+
+.ClickMenu .menu Button:hover p {
+  color: #fff !important;
+}
+
+.ClickMenu .menu button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #00b0f0;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 1;
+  top: 0;
+  z-index: -12;
+  -moz-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  box-shadow: 2px 0px 14px rgba(0, 176, 240, 0.3);
+}
+
+.ClickMenu .menu button::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #6fecdf;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 0;
+  top: 0;
+  z-index: -15;
+  -webkit-transition: all 0.94s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -moz-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -o-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  box-shadow: 2px 0px 14px rgba(0, 176, 240, 0.3);
+  font-family: "NanumSquare", sans-serif !important;
+}
+
+.ClickMenu .menu button:hover::before,
+.ClickMenu .menu button:hover::before {
+  opacity: 1;
+  width: 116%;
+}
+
+.ClickMenu .menu button:hover::after,
+.ClickMenu .menu button:hover::after {
+  opacity: 1;
+  width: 120%;
+}
+/* ----------------------------------------- */
+
+@media (max-width: 1024px) {
+  .ClickMenu .menu {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Company-main {
+    width: 100%;
+    height: 500px;
+  }
+
+  .Company-main h1 {
+    font-size: 6rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 550px;
+  }
+
+  .ClickMenu .menu {
+    width: 90%;
+  }
+
+  .ClickMenu .menu button {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 544px) {
+  .Company-main {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Company-main h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 500px;
+  }
+
+  .ClickMenu .menu {
+    width: 100%;
+  }
+
+  .ClickMenu .menu button {
+    font-size: 0.8rem;
+    border-radius: 15px 15px;
+    width: 6rem;
+  }
+
+  .ClickMenu .menu button.select {
+    color: #0064ab;
+    font-weight: bold;
+    background-color: #00b0f0 !important;
+    border-radius: 15px 15px;
+    color: #fff !important;
+  }
+}
+@media (max-width: 320px) {
+  .Company-main {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Company-main h1 {
+    font-size: 3.5rem;
+  }
+
+  .ClickMenu .menu {
+    width: 100%;
+  }
+
+  .ClickMenu .menu button {
+    font-size: 0.7rem;
+  }
+  .ClickMenu .menu button {
+    border-radius: 15px 15px;
+    width: 6rem;
+  }
+
+  .ClickMenu .menu button.select {
+    color: #0064ab;
+    font-weight: bold;
+    background-color: #00b0f0 !important;
+    border-radius: 15px 15px;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 280px) {
+  .Company-main {
+    width: 100%;
+    height: 400px;
+  }
+
+  .Company-main h1 {
+    font-size: 3.5rem;
+  }
+
+  .ClickMenu .menu {
+    width: 100%;
+  }
+
+  .ClickMenu .menu button {
+    font-size: 0.7rem;
+  }
+
+  .ClickMenu .menu button {
+    border-radius: 15px 15px;
+    width: 5.5rem;
+  }
+
+  .ClickMenu .menu button.select {
+    color: #0064ab;
+    font-weight: bold;
+    background-color: #00b0f0 !important;
+    border-radius: 15px 15px;
+    color: #fff !important;
+  }
+}

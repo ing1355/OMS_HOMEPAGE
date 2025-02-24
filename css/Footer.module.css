@@ -1,0 +1,151 @@
+.Footer {
+  width: 100% !important;
+  background-color: #063d64 !important;
+  position: absolute;
+  left: 0;
+}
+
+.Footer-box {
+  width: 75rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr .8fr;
+}
+
+.footerRight{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  align-content: flex-end;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.footerRight img {
+  width: 4.5rem;
+  margin: .5rem;
+}
+
+.Footer-Title {
+  padding-top: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.Footer-Text {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.5rem;
+}
+
+.footerFirst::after {
+  content: '|';
+  margin: 0 0.5rem;
+}
+
+.Footer-Subtext {
+  font-size: 0.8rem;
+  color: #bdbdbd;
+  margin-top: 2rem;
+}
+
+.Footer-box .footerA:hover {
+  text-decoration: underline !important;
+}
+
+@media (max-width: 1208px) {
+  .Footer-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1024px) {
+  .Footer-box {
+    width: 90%;
+    grid-template-columns: auto;
+  }
+  .footerRight{
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 10vw;
+  }
+
+  .Footer-Title,
+  .Footer-Text {
+    text-align: center;
+  }
+
+  .Footer-Subtext {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .Footer-box {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .Footer-Title {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .footerRight {
+    margin: 1rem 10vw;
+  }
+  
+  .footerRight img {
+    width: 2rem;
+    margin: .4rem;
+  }
+
+  .Footer-Text {
+    font-size: 0.75rem;
+    color: #fff;
+    line-height: 0.8rem;
+  }
+}
+@media (max-width: 376px) {
+  .footerA {
+    display: block;
+  }
+  .footerFirst::after {
+    content: none;
+  }
+  .Footer-Subtext {
+    margin-top: 0.5rem;
+  }
+}
+@media (max-width: 320px) {
+  .Footer-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .Footer-Title {
+    padding-top: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .Footer-Text {
+    font-size: 0.7rem;
+    color: #fff;
+    line-height: 0.8rem;
+  }
+  .Footer-Subtext {
+    font-size: 0.6rem;
+  }
+  .footerFirst {
+    margin-bottom: 0.6rem !important;
+  }
+}
+@media (max-width: 280px) {
+  .footerFirst {
+    margin-bottom: 0.5rem !important;
+  }
+}

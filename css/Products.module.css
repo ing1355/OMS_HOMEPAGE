@@ -1,0 +1,991 @@
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+:lang(ko) .EnCertifications {
+  display: none;
+}
+:lang(en) .KoCertifications {
+  display: none;
+}
+.solution-main {
+  width: 100%;
+  height: 600px;
+  background: url(https://omsecurity.kr/assets/slider1.png) center center no-repeat;
+  background-size: cover;
+}
+
+.solution-main h1 {
+  font-size: 8rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 700px;
+}
+.ClickMenu2{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.ClickMenu2 .menu{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(0,0,0,.3);  
+}
+
+.ClickMenu2 .menu li{
+  display: flex;
+  flex: 1;
+}
+
+.ClickMenu2 .menu li button{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ height: 70px;
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  &:hover {
+    color: white;
+  }
+}
+
+.ClickMenu2 .menu li button p {
+  margin-bottom: 0;
+  font-size: 15px;
+  /* background-color: #fff; */
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0 0.5rem;
+}
+
+.ClickMenu2 .menu button.select p {
+  font-weight: bold;
+  background-color: #00b0f0 !important;
+  color: #fff !important;
+  width: 100%;
+}
+
+
+:lang(en).brochurebox p b {
+  display: none;
+}
+.brochurebox {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url(https://omsecurity.kr/assets/brochure.png) center center no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.brochurebox h1 {
+  padding-top: 55px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.brochurebox p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.brochurebox button {
+  width: 17rem;
+  height: 50px;
+  outline: 0;
+  background: none;
+  font-weight: bold;
+  margin-right: 25px;
+  margin-top: -5rem !important;
+  margin-left: 25px;
+  top: 20px !important;
+  font-size: 13px;
+  text-transform: uppercase !important;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: hand;
+  text-align: center;
+  text-transform: capitalize;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: transparent !important;
+  z-index: 10;
+}
+
+.brochurebox button:hover {
+  border: 1px solid #6fb8ec;
+  color: #fff !important;
+}
+.brochurebox button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #00b0f0;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 1;
+  top: 0;
+  z-index: -12;
+  -moz-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  box-shadow: 2px 0px 14px rgba(0, 176, 240, 0.3);
+}
+
+.brochurebox button::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #6fecdf;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 0;
+  top: 0;
+  z-index: -15;
+  -webkit-transition: all 0.94s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -moz-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -o-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  box-shadow: 2px 0px 14px rgba(0, 176, 240, 0.3);
+}
+
+.brochurebox button:hover::before,
+.brochurebox button:hover::before {
+  opacity: 1;
+  width: 116%;
+}
+
+.brochurebox button:hover::after,
+.brochurebox button:hover::after {
+  opacity: 1;
+  width: 120%;
+}
+
+.brochurebox .policy {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.brochurebox .policy:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+  .solution-main {
+    width: 100%;
+    height: 500px;
+  }
+
+  .solution-main h1 {
+    font-size: 6rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 550px;
+  }
+
+  .brochurebox .policy {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 0.7rem;
+  }
+
+}
+
+ @media (max-width: 540px) {
+  .ClickMenu2 .menu{
+    width: 100%;
+  }
+  .solution-main {
+    width: 100%;
+    height: 400px;
+  }
+  .solution-main h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 500px;
+  }
+  .ClickMenu2 .menu button p {
+     font-size: 12px !important;
+  } 
+
+
+  .brochurebox {
+    width: 100% !important;
+    height: auto;
+    background: url(https://omsecurity.kr/assets/brochure.png) center center no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .brochurebox h1 {
+    padding-top: 3rem !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .brochurebox p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  :lang(en).brochurebox p {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+
+  .brochurebox button {
+    width: auto;
+    padding: 0 3rem;
+    height: 3rem;
+    border: 0.1rem solid #fff !important;
+    color: #fff !important;
+    outline: 0;
+    background: none;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem !important;
+  }
+
+  :lang(en).brochurebox button {
+    width: 15rem;
+    padding: 0 0;
+    height: 3rem;
+    border: 0.1rem solid #fff !important;
+    color: #fff !important;
+    outline: 0;
+    background: none;
+    font-weight: bold;
+
+    margin-left: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 326px) {
+  .ClickMenu2 .menu button p {
+     font-size: 11px !important; 
+  }   
+}
+
+@media (max-width: 414px) {
+  .ClickMenu2 .Pc4 p{
+    line-height: 30px !important;
+  }
+  .brochurebox {
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  :lang(en) .brochurebox {
+    height: auto !important;
+  }
+  .brochurebox h1 {
+    padding-top: 2.8rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .brochurebox p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  .brochurebox button {
+    width: 20rem;
+    padding: 0 0;
+    height: 3rem;
+    border: 0.1rem solid #fff !important;
+    color: #fff !important;
+    outline: 0;
+    background: none;
+    font-weight: bold;
+    margin-bottom: 1.5rem !important;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+
+@media (max-width: 376px) {
+
+  :lang(en) .brochurebox {
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .brochurebox h1 {
+    padding-top: 2.6rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  :lang(en) .brochurebox h1 {
+    padding-top: 3.2rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  :lang(en).brochurebox p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .brochurebox p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  .brochurebox button {
+    width: 20rem;
+    padding: 0 0;
+    height: 3rem;
+    border: 0.1rem solid #fff !important;
+    color: #fff !important;
+    outline: 0;
+    background: none;
+    font-weight: bold;
+  
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 0.8rem;
+  }
+  
+}
+
+@media (max-width: 345px) {
+  
+  .ClickMenu2 .Secureprint p{
+    line-height: 30px !important;
+  }
+
+}
+
+
+@media (max-width: 320px) {
+  .solution-main {
+    width: 100%;
+    height: 400px;
+  }
+  .solution-main h1 {
+    font-size: 3.5rem;
+  }
+  .brochurebox button {
+    width: 15rem !important;
+    padding: 0 0;
+    height: 3rem;
+    border: 0.1rem solid #fff !important;
+    color: #fff !important;
+    outline: 0;
+    background: none;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 280px) {
+    .solution-main {
+    width: 100%;
+    height: 400px;
+  }
+
+  .solution-main h1 {
+    font-size: 3.5rem;
+  }
+}
+
+/* .ClickMenu2 {
+  background-color: #fff;
+  width: 100% !;
+}
+.ClickMenu2 .menu {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+  font-size: 1rem;
+  align-items: center;
+}
+.ClickMenu2 .menu p {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.ClickMenu2 .menu button {
+  font-weight: 500;
+  font-family: "NanumSquare", sans-serif !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px;
+  color: #272727;
+  cursor: hand;
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid #fff;
+  border-radius: 40px 0 40px 0;
+  position: relative;
+  overflow: hidden !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: transparent !important;
+  z-index: 10;
+  width: 12rem;
+  font-family: "NanumSquare", sans-serif !important;
+}
+
+.ClickMenu2 .menu button.select {
+  font-weight: bold;
+  background-color: #00b0f0 !important;
+  border-radius: 40px 0px 40px 0;
+  color: #fff !important;
+}
+.ClickMenu2 .menu button.select p {
+  color: #fff;
+}
+
+.ClickMenu2 .menu button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #00b0f0;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 1;
+  top: 0;
+  z-index: -12;
+  -moz-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  box-shadow: 2px 0px 14px rgba(0, 176, 240, 0.3);
+}
+
+.ClickMenu2 .menu button::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #6fecdf;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 0;
+  top: 0;
+  z-index: -15;
+  -webkit-transition: all 0.94s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -moz-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -o-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  box-shadow: 2px 0px 14px rgba(0, 176, 240, 0.3);
+  font-family: "NanumSquare", sans-serif !important;
+}
+
+.ClickMenu2 .menu button:hover::before,
+.ClickMenu2 .menu button:hover::before {
+  opacity: 1;
+  width: 116%;
+}
+
+.ClickMenu2 .menu button:hover::after,
+.ClickMenu2 .menu button:hover::after {
+  opacity: 1;
+  width: 120%;
+} 
+
+:lang(en).brochurebox p b {
+  display: none;
+}
+.brochurebox {
+  width: 100%;
+  height: auto;
+  background: url(https://omsecurity.kr/assets/brochure.png) no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.brochurebox h1 {
+  padding-top: 55px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.brochurebox p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.brochurebox button {
+  width: 17rem;
+  height: 50px;
+  outline: 0;
+  background: none;
+  font-weight: bold;
+  margin-right: 25px;
+  margin-top: -5rem !important;
+  margin-left: 25px;
+  top: 20px !important;
+  font-size: 13px;
+  text-transform: uppercase !important;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: hand;
+  text-align: center;
+  text-transform: capitalize;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: transparent !important;
+  z-index: 10;
+}
+
+.brochurebox button:hover {
+  border: 1px solid #6fb8ec;
+  color: #fff !important;
+}
+.brochurebox button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #00b0f0;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 1;
+  top: 0;
+  z-index: -12;
+  -moz-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.7s cubic-bezier(0.77, 0, 0.175, 1);
+  box-shadow: 2px 0px 14px rgba(0, 176, 240, 0.3);
+}
+
+.brochurebox button::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #6fecdf;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  left: -10%;
+  opacity: 0;
+  top: 0;
+  z-index: -15;
+  -webkit-transition: all 0.94s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -moz-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  -o-transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  transition: all 0.4s cubic-bezier(0.2, 0.95, 0.57, 0.99);
+  box-shadow: 2px 0px 14px rgba(0, 176, 240, 0.3);
+}
+
+.brochurebox button:hover::before,
+.brochurebox button:hover::before {
+  opacity: 1;
+  width: 116%;
+}
+
+.brochurebox button:hover::after,
+.brochurebox button:hover::after {
+  opacity: 1;
+  width: 120%;
+}
+.KoMobile,
+.EnMobile {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .ClickMenu2 .menu {
+    width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  :lang(en) .EnMobile {
+    display: block !important;
+  }
+  :lang(ko) .KoMobile {
+    display: block !important;
+  }
+  .Desktop {
+    display: none !important;
+  }
+
+  .solution-main {
+    width: 100%;
+    height: 500px;
+  }
+
+  .solution-main h1 {
+    font-size: 6rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 550px;
+  }
+  .ClickMenu2 .menu {
+    width: 90%;
+  }
+  .ClickMenu2 .menu button {
+    font-size: 1rem;
+  }
+} 
+
+
+ @media (max-width: 540px) {
+  .solution-main {
+    width: 100%;
+    height: 400px;
+  }
+  .solution-main h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 500px;
+  }
+  .ClickMenu2 .menu {
+    width: 100%;
+  }
+
+  .ClickMenu2 .menu button {
+    font-size: 0.8rem;
+    border-radius: 15px 15px !important;
+    width: 8rem;
+    text-align: center !important;
+  }
+  .ClickMenu2 .menu button.select {
+    color: #0064ab;
+    font-weight: bold;
+    background-color: #00b0f0 !important;
+    border-radius: 15px 15px;
+    color: #fff !important;
+  }
+
+  .brochurebox {
+    width: 100% !important;
+    height: auto;
+    background: url(https://omsecurity.kr/assets/brochure.png) no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .brochurebox h1 {
+    padding-top: 3rem !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .brochurebox p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  :lang(en).brochurebox p {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+
+  .brochurebox button {
+    width: auto;
+    padding: 0 3rem;
+    height: 3rem;
+    border: 0.1rem solid #fff !important;
+    color: #fff !important;
+    outline: 0;
+    background: none;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem !important;
+  }
+
+  :lang(en).brochurebox button {
+    width: 15rem;
+    padding: 0 0;
+    height: 3rem;
+    border: 0.1rem solid #fff !important;
+    color: #fff !important;
+    outline: 0;
+    background: none;
+    font-weight: bold;
+
+    margin-left: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 414px) {
+  :lang(ko) .ClickMenu2 .menu button {
+    font-size: 0.8rem;
+    border-radius: 15px 15px !important;
+    width: auto !important;
+    padding: 0px 5px;
+    text-align: center !important;
+  }
+  :lang(en) .ClickMenu2 .menu button {
+    font-size: 0.8rem;
+    border-radius: 15px 15px !important;
+    width: auto !important;
+    padding: 0px 10px;
+    text-align: center !important;
+  }
+  .brochurebox {
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  :lang(en) .brochurebox {
+    height: 350px !important;
+  }
+  .brochurebox h1 {
+    padding-top: 2.8rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  .brochurebox p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  .brochurebox button {
+    width: 20rem;
+    padding: 0 0;
+    height: 3rem;
+    border: 0.1rem solid #fff !important;
+    color: #fff !important;
+    outline: 0;
+    background: none;
+    font-weight: bold;
+    margin-bottom: 1.5rem !important;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 376px) {
+  :lang(ko) .ClickMenu2 .menu button {
+    font-size: 0.7rem;
+    border-radius: 15px 15px !important;
+    width: auto !important;
+    padding: 0px 5px;
+    text-align: center !important;
+  }
+  :lang(en) .ClickMenu2 .menu button {
+    font-size: 0.7rem;
+    border-radius: 15px 15px !important;
+    width: auto !important;
+    padding: 0px 10px;
+    text-align: center !important;
+  }
+  :lang(en) .brochurebox {
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .brochurebox h1 {
+    padding-top: 2.6rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  :lang(en) .brochurebox h1 {
+    padding-top: 3.2rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  :lang(en).brochurebox p {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .brochurebox p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  .brochurebox button {
+    width: 20rem;
+    padding: 0 0;
+    height: 3rem;
+    border: 0.1rem solid #fff !important;
+    color: #fff !important;
+    outline: 0;
+    background: none;
+    font-weight: bold;
+
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 360px) {
+  .ClickMenu2 .menu button {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 320px) {
+  :lang(ko) .ClickMenu2 .menu button {
+    font-size: 0.6rem;
+    border-radius: 15px 15px !important;
+    width: auto !important;
+    padding: 0px 2px;
+    text-align: center !important;
+  }
+  :lang(en) .ClickMenu2 .menu button {
+    font-size: 0.6rem;
+    border-radius: 15px 15px !important;
+    width: auto !important;
+    padding: 0px 2px;
+    text-align: center !important;
+  }
+  .solution-main {
+    width: 100%;
+    height: 400px;
+  }
+  .solution-main h1 {
+    font-size: 3.5rem;
+  }
+  .ClickMenu2 .menu {
+    width: 100%;
+  }
+
+  .ClickMenu2 .menu button.select {
+    color: #0064ab;
+    font-weight: bold;
+    background-color: #00b0f0 !important;
+    border-radius: 15px 15px;
+    color: #fff !important;
+  }
+  .brochurebox button {
+    width: 15rem !important;
+    padding: 0 0;
+    height: 3rem;
+    border: 0.1rem solid #fff !important;
+    color: #fff !important;
+    outline: 0;
+    background: none;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 280px) {
+  :lang(ko) .ClickMenu2 .menu button {
+    font-size: 0.5rem !important;
+    border-radius: 15px 15px !important;
+    width: auto !important;
+    padding: 0px 7.5px;
+    text-align: center !important;
+  }
+  :lang(en) .ClickMenu2 .menu button {
+    font-size: 0.5rem !important;
+    border-radius: 15px 15px !important;
+    width: auto !important;
+    padding: 0px 2px;
+    text-align: center !important;
+  }
+  .solution-main {
+    width: 100%;
+    height: 400px;
+  }
+
+  .solution-main h1 {
+    font-size: 3.5rem;
+  }
+
+  .ClickMenu2 .menu {
+    width: 100%;
+  }
+
+  .ClickMenu2 .menu button {
+    font-size: 0.5rem !important;
+  }
+
+  .ClickMenu2 .menu button.select {
+    color: #0064ab;
+    font-weight: bold;
+    background-color: #00b0f0 !important;
+    border-radius: 15px 15px;
+    color: #fff !important;
+  }
+} */

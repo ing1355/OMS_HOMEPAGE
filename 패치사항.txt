@@ -1,0 +1,109 @@
+2024-01-02
+----------------
+1. pdf OMEYE4.pdf 수정(text 변경)
+2. pdf 브로셔_한글.pdf 수정(text 변경)
+3. assets /OMEYEimg_2.png (text 변경)
+
+2024-01-04
+-------------
+1. pdf /원모어아이 브로슈어.pdf (text 변경)
+2. pdf /soluution_En.pdf (text 변경)
+3. assets /OMEYEimg3.png (text 변경)
+4. assets /OMEYEimg3En.png (text 변경)
+5. assets /OMEYEimg_2.png (text 변경)
+6. assets /video (productionID_3936991.mp4) 변경
+
+2024-02-05 
+--------------
+
+1. pdf / 다운로드 버튼 해당 전체 브로슈어 (인증마크 업뎃)
+2. assets / img 전체 패키지 박스 (인증마크 업뎃)
+
+2024-02-20 
+--------------
+1. company.css + common.json / 연혁 [2023.12월] (text 문장 2개 추가)
+
+
+2024-04-16
+-------------
+
++ 한글 버전, 영문 버전 모두 업뎃 완료 +
+
+[ 원모어아이 ]
+
+1. products 타이틀 박스 color 변경 (연한 그린계열)
+2. OMEYEimg1.png (이미지 변경)
+3. OMEYEimg3En.png (이미지 변경)
+4. OMEYEimg.png (이미지 변경)
+5. OMEYEimg_2.png (이미지 변경)
+6. 원모어아이 브로슈어.pdf (pdf 변경)
+7. 솔루션 브로슈어.pdf (pdf 변경)
+
+[ 미씽맘 ]
+
+1. missingmomimg3.png (이미지 변경--> 2.0로고로 대체)
+2. missingmome_3.png (이미지 변경--> 2.0로고로 대체)
+3. 미씽맘 브로슈어.pdf (pdf 변경)
+
+
+[ 원모어페이스 ]
+
+1. OMFACEimg2.png (이미지 변경 --> 2.0 패키지 박스, text 변경)
+2. 원모어페이스 브로슈어.pdf (pdf 변경)
+
+
+2024-04-18
+-------------
+
+1. assets / (국가보안기술연구소.png + 군산시청로고.jpg) 홈페이지 Partners에 추가 
+
+
+2024-04-24
+-------------
+
+1. assets/ 이미지 변경 => ompassimg4En.png - img 안 텍스트 재배치 ("사용자 보안성 강화 등 기존에 삐뚤어져있었음")
+                      => ompassimg6.png - 선택행--> 선택형 (text 수정) (기존에 오타나 있었던 img) 
+
+
+2024-04-25
+-------------
+
+1. assets/ 이미지 변경 => 1. OMEYE_img1En.png  / 2. OMEYEimg3En.png 
+2. code 추가 / (회사개요, 수상&인증서&등록증, 특허증) - hover시 color(#fff)변경
+3. code 변경 / main.module.css 에서 (max-width: 414p) : .Recentpost-box div:nth-child(2) {
+                                                               padding-top: 1.8rem !important; (기존에 1rem 이었음)
+                                                        }
+
+2024-10-24
+-------------
+
+1. Main_Title.js / 인증마크 (NEP, 조달우수, 조달혁신) 3개 추가 
+2. Main.module.css / 인증마크 3개 (이미지 정렬) 코드 추가
+
+
+2024-10-29
+-------------
+
+1. index.js (Ompass) / "클라우드 서비스 이용하기" 바를 눌렀을 때 스크롤 탑이 들어감 
+                      - 수정 : 스크롤탑(packageBox-videoButton) 제거 후, cloud-button에 
+                     ** style={{width: "100%", height: "auto", padding:"0.8rem 1rem"}}** 를 추가함 
+
+2. Ompass.module.css / background, width, height, padding 주석 처리함
+
+
+2024-10-30
+-------------
+
+1. Packagebox.module.css / .packageBox-title ul p 에 해당하는 margin-bottom: 1rem 을 0.5rem으로 변경함
+2. common.json/ko + common.json/en / 텍스트 변경 후 재정렬 
+
+(오후 5:26) 
+
+3. Partners.css / max-width: 414,376,320,280 으로 code 추가함 
+
+
+2024-11-29
+--------------
+
+1. 연혁 - 11월 : 캐나다 Sarafin AI와 MOU/NDA 체결 (추가)
+2. 파트너사 - 로고 img + 파트너사 텍스트 (추가)

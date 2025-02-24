@@ -1,0 +1,333 @@
+:lang(ko) .enCertificateImg {
+  display: none;
+}
+
+:lang(en) .koCertificateImg {
+  display: none;
+}
+
+.certificate {
+  width: 100%;
+  background-color: #fff;
+}
+
+div[class^="certificatebox"] {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.certificate h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.certificate p {
+  font-size: 1.1rem;
+  margin-top: 25px !important;
+}
+
+div[class^="certificatebox"] ul {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 80px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 60px;
+}
+
+.certificate .certificatebox2 ul{
+  border-bottom: none;
+}
+
+.certificatebox ul li:nth-child(1) {
+  margin-bottom: 100px;
+}
+
+#ompass img {
+  margin-top: 45px;
+}
+
+.certificatebox ul li {
+  margin-bottom: 30px;
+}
+
+.certificatebox2 ul li {
+  margin-bottom: 70px;
+}
+
+.certificatebottombox {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  background-color: rgba(0, 176, 240, 0.1);
+  margin-bottom: -15px;
+}
+
+.certificatebottombox ul {
+  width: 80%;
+  height: 20%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.certificatebottombox ul li {
+  margin-bottom: 30px;
+}
+
+.certificatebox ul p {
+  margin-top: 25px;
+  letter-spacing: -0.1rem;
+}
+
+.certificatebottombox ul p {
+  margin-top: 25px;
+  font-size: 1.1rem;
+  letter-spacing: -0.1rem;
+}
+
+.certificate-margin-top {
+  margin-top: 4rem;
+}
+
+@media (max-width: 1024px) {
+  div[class^="certificatebox"] ul {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+
+  .certificate .certificatebox ul {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 60px;
+  }
+
+  div[class^="certificatebox"] img {
+    margin: 0 auto;
+    width: 80% !important;
+  }
+
+  .certificatebox2 ul li:nth-child(5) img ,
+  .certificatebox2 ul li:nth-child(6) img ,
+  .certificatebox2 ul li:nth-child(7) img ,
+  .certificatebottombox ul li img {
+    width: 60% !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+  div[class^="certificatebox"] h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .certificate-margin-top {
+    margin-top: 0;
+  }
+
+  .certificatebox ul {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 60px;
+  }
+
+  .certificatebox2 ul {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+
+  .certificatebox2 img {
+    width: 90% !important;
+  }
+
+  .certificatebox2 ul li:nth-child(5) img ,
+  .certificatebox2 ul li:nth-child(6) img ,
+  .certificatebox2 ul li:nth-child(7) img {
+    width: 70% !important;
+  }
+
+  .certificatebottombox ul {
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .certificatebottombox ul li {
+    margin-bottom: 30px;
+  }
+
+  .certificatebottombox ul p {
+    font-size: .8rem;
+  }
+
+  .certificatebottombox img {
+    width: 100% !important;
+  }
+
+  div[class^="certificatebox"] ul p {
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+}
+/* ==================================== */
+@media (max-width: 414px) {
+  .certificate {
+    width: 100%;
+  }
+
+  .certificatebox {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 70px;
+    text-align: center;
+  }
+
+  .certificatebox h3 {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+
+  div[class^="certificatebox"] p {
+    font-size: 12px;
+    margin-top: 15px !important;
+  }
+  .certificatebox ul {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  .certificatebox ul li:nth-child(1) {
+    margin-bottom: 0px;
+  }
+
+  .certificatebox ul li:nth-child(5) p {
+    padding: 0px 20px;
+  }
+  .certificatebox ul li {
+    margin-bottom: 40px !important;
+    flex: 1;
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+  }
+  .certificatebox ul li:nth-child(7) img {
+    margin-top: 0px !important;
+  }
+
+  .certificatebox ul li p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .certificatebox ul li img {
+    margin: 0 auto;
+    width: 70% !important;
+  }
+
+  .certificatebox2 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+  }
+
+  .certificatebox2 h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .certificatebox2 p {
+    margin-top: 10px;
+  }
+  .certificatebox2 ul {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .certificatebox2 ul li {
+    margin-bottom: 40px !important;
+    flex: 1;
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+  }
+
+  div[class^="certificatebox"] p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px !important;
+  }
+
+  .certificatebox2 ul li img {
+    margin: 0 auto;
+    width: 70% !important;
+  }
+
+  .certificatebottombox {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .certificatebottombox ul {
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .certificatebottombox ul li {
+    margin-bottom: 30px;
+    flex: 0 0 50%;
+  }
+
+  .certificatebottombox ul li p {
+    font-size: 12px;
+    margin-top: 15px !important;
+  }
+
+  .certificatebottombox ul li img {
+    width: 70% !important;
+  }
+}
+
+.certificate img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}
+
+.certificate2 img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}

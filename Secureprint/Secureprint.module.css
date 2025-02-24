@@ -1,0 +1,688 @@
+:lang(ko) .enImg {
+  display: none;
+}
+:lang(en) .koImg {
+  display: none;
+}
+
+.pay-box2 {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3f4ec;
+}
+
+.pay-box2 .bg {
+  position: absolute;
+  right: 2rem;
+  bottom: 1.5rem;
+  width: 10%;
+}
+:lang(en) .pay-box {
+  /* background: url(https://omsecurity.kr/assets/pps-bgen.png) no-repeat;
+  background-size: 100%; */
+}
+
+.pay-box2 a {
+  color: inherit;
+}
+.pay-box2 h1 {
+  text-align: center;
+
+  word-break: keep-all;
+}
+.pay-box2 button {
+  margin-top: 1rem;
+  padding: 0.7rem 2rem;
+  border: 0;
+  outline: 0;
+  background-color: #066454;
+  color: #fff;
+  border-radius: 30px;
+}
+.pay-box2 button:hover {
+  background-color: #000;
+}
+
+.Secureprint {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.Solutionimg {
+  width: 15rem !important;
+}
+.Secureprint .Secureprinttextbox {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.Secureprint .Secureprinttextbox .Secureprinttitle {
+  width: 80%;
+  margin: 0 auto;
+  height: 350px;
+  background-color: #fdfaf1;
+  border-radius: 20px;
+  text-align: center;
+}
+:lang(en) .Secureprint .Secureprinttextbox .Secureprinttitle {
+  height: 360px;
+}
+:lang(en)
+  .Secureprint
+  .Secureprinttextbox
+  .Secureprinttitle
+  div:nth-child(1)
+  img {
+  margin-top: 3.3rem;
+}
+.Secureprint .Secureprinttextbox .Secureprinttitle div {
+  float: left;
+  width: 35%;
+}
+
+.Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(1) img {
+  margin-top: 3rem;
+}
+
+.Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) {
+  text-align: left;
+  width: 65%;
+}
+
+.Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h1 {
+  width: 25rem;
+  height: auto;
+  text-align: center;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #e7ca7a;
+  font-size: 2rem;
+  line-height: auto;
+  margin-top: 3rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p {
+  margin-bottom: 20px;
+  padding: 0px 1rem 0 0;
+  font-size: 1.2rem;
+}
+.Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p span {
+  font-size: 1.2rem !important;
+  color: #272727 !important;
+}
+
+.Secureprint .scenario {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 5rem !important;
+}
+
+.Secureprint .scenario h2 {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+  line-height: 50px;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 900;
+}
+
+.Secureprint .scenario div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.Secureprint .scenario div img {
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 1208px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle {
+    width: 80%;
+    height: 325px;
+  }
+  :lang(en) .Secureprint .Secureprinttextbox .Secureprinttitle {
+    height: 360px;
+  }
+  :lang(en)
+    .Secureprint
+    .Secureprinttextbox
+    .Secureprinttitle
+    div:nth-child(1)
+    img {
+    margin-top: 4rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div {
+    float: left;
+    width: 40%;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) {
+    text-align: left;
+    width: 60%;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 2rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 0.8rem 0;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h3 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.2rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .Secureprint .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .Secureprint .scenario h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .Secureprint .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle {
+    width: 80%;
+    height: 330px;
+  }
+  :lang(en) .Secureprint .Secureprinttextbox .Secureprinttitle {
+    height: 360px;
+  }
+  :lang(en)
+    .Secureprint
+    .Secureprinttextbox
+    .Secureprinttitle
+    div:nth-child(1)
+    img {
+    margin-top: 4rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div {
+    float: left;
+    width: 40%;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) {
+    text-align: left;
+    width: 60%;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 1.7rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .Secureprint .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .Secureprint .scenario h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .Secureprint .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+/* @media (max-width: 1208px) {
+  .Secureprint .Secureprinttextbox .Secureprinttitle {
+    background: red !important;
+  }
+} */
+@media (max-width: 834px) {
+  .Secureprint .Secureprinttextbox .Secureprinttitle {
+    width: 85%;
+  }
+  .Secureprint .scenario {
+    width: 85%;
+  }
+
+  .Secureprint .scenario h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+/* ==================================================== */
+
+@media (max-width: 768px) {
+  .Certificate-img2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .Certificate-img2 img {
+    width: 6rem !important;
+  }
+  .Solutionimg {
+    width: 20rem !important;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle {
+    width: 80%;
+    height: 800px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .Secureprint .Secureprinttextbox .Secureprinttitle {
+    height: 870px !important;
+  }
+  :lang(en)
+    .Secureprint
+    .Secureprinttextbox
+    .Secureprinttitle
+    div:nth-child(1)
+    img {
+    margin-top: 4rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(1) img {
+    margin-top: 3.5rem;
+    margin-left: -25px;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h1 {
+    width: 25rem;
+    height: auto;
+    font-size: 2.5rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1.2rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h3 {
+    font-size: 2.3rem;
+    margin-top: 2rem;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.5rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p span {
+    font-size: 1.5rem !important;
+    display: block;
+  }
+}
+
+@media (max-width: 540px) {
+  .Certificate-img2 img {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+  }
+  .Solutionimg {
+    width: 17rem !important;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle {
+    width: 85%;
+    height: 720px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .Secureprint .Secureprinttextbox .Secureprinttitle {
+    height: 750px !important;
+  }
+  :lang(en)
+    .Secureprint
+    .Secureprinttextbox
+    .Secureprinttitle
+    div:nth-child(1)
+    img {
+    margin-top: 4rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(1) img {
+    margin-top: 3rem !important;
+    margin-left: -25px;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h1 {
+    width: 20rem !important;
+    height: auto;
+    font-size: 1.8rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem !important;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1.2rem;
+  }
+  :lang(en)
+    .Secureprint
+    .Secureprinttextbox
+    .Secureprinttitle
+    div:nth-child(2)
+    p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 1rem;
+    font-size: 1.2rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p span {
+    font-size: 1.2rem !important;
+    display: block;
+  }
+
+  .Secureprint .scenario {
+    width: 85%;
+    margin-top: 2rem !important;
+  }
+  :lang(en) .Secureprint .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 1rem;
+  }
+  .Secureprint .scenario h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+  }
+
+  .Secureprint .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .Solutionimg {
+    width: 15rem !important;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem !important;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle {
+    height: 650px !important;
+  }
+  :lang(en) .Secureprint .Secureprinttextbox .Secureprinttitle {
+    height: 680px !important;
+  }
+  :lang(en)
+    .Secureprint
+    .Secureprinttextbox
+    .Secureprinttitle
+    div:nth-child(1)
+    img {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .Solutionimg {
+    width: 13rem !important;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle {
+    width: 85%;
+    height: 590px !important;
+  }
+  :lang(en) .Secureprint .Secureprinttextbox .Secureprinttitle {
+    height: 650px !important;
+  }
+  :lang(en)
+    .Secureprint
+    .Secureprinttextbox
+    .Secureprinttitle
+    div:nth-child(1)
+    img {
+    margin-top: 3rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h1 {
+    width: 18rem !important;
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+  .Secureprint .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+  :lang(en) .Secureprint .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h1 {
+    width: 15rem !important;
+    font-size: 1.3rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle {
+    width: 85%;
+    height: 580px !important;
+  }
+  :lang(en)
+    .Secureprint
+    .Secureprinttextbox
+    .Secureprinttitle
+    div:nth-child(2)
+    h1 {
+    width: 15rem !important;
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+
+  .Solutionimg {
+    width: 12em !important;
+  }
+
+  :lang(en) .Secureprint .Secureprinttextbox .Secureprinttitle {
+    height: 670px !important;
+  }
+}
+@media (max-width: 280px) {
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h1 {
+    width: 14rem !important;
+    font-size: 1.3rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+  :lang(en)
+    .Secureprint
+    .Secureprinttextbox
+    .Secureprinttitle
+    div:nth-child(2)
+    h1 {
+    width: 13rem !important;
+    font-size: 1.2rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+  .Securepr .Solutionimg {
+    width: 11em !important;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle {
+    width: 85%;
+    height: 535px !important;
+  }
+  :lang(en) .Secureprint .Secureprinttextbox .Secureprinttitle {
+    height: 650px !important;
+  }
+  :lang(en)
+    .Secureprint
+    .Secureprinttextbox
+    .Secureprinttitle
+    div:nth-child(1)
+    img {
+    margin-top: 3rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h1 {
+    width: 12rem;
+    font-size: 1.3rem;
+    margin-top: 1rem !important;
+    padding: 0.8rem 0;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem !important;
+  }
+
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.8rem;
+  }
+  .Secureprint .Secureprinttextbox .Secureprinttitle div:nth-child(2) p span {
+    font-size: 0.8rem !important;
+  }
+
+  .Secureprint .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.7rem;
+  }
+  :lang(en) .Secureprint .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+}

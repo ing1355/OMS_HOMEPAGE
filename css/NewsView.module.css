@@ -1,0 +1,189 @@
+:lang(ko) .detailtextEn {
+  display: none;
+}
+:lang(en) .detailtextKo {
+  display: none;
+}
+:lang(ko) .titleEn {
+  display: none;
+}
+:lang(en) .titleKo {
+  display: none;
+}
+.detailview {
+  width: 100%;
+  background-color: #fff;
+  height: auto !important;
+}
+
+.detailview .detailTitle {
+  width: 75%;
+  margin: 0 auto;
+  height: auto;
+  padding-top: 60px;
+  text-align: left;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+.detailview .detailTitle h2 {
+  font-size: 25px;
+  font-weight: bold;
+  height: auto !important;
+  margin-bottom: 30px !important;
+  line-height: 30px !important;
+}
+.detailview .detailTitle h4 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px !important;
+}
+
+.detailtextKo,
+.detailtextEn {
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.detailbuttonbox {
+  width: 75%;
+  height: 100px;
+  margin-top: 70px !important;
+  margin: 0 auto;
+  position: relative;
+}
+
+.detailview img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.detailview button {
+  width: 80px;
+  height: 30px;
+  outline: 0;
+  border: 0;
+  /* background-color: #f39531; */
+  border: 1px solid #f39531;
+  background: none;
+  color: #f39531;
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+}
+
+.detailview button:hover {
+  background-color: #f39531;
+  color: #fff;
+  transition-duration: 0.3s;
+}
+
+.detailbuttonbox .update {
+  margin-right: 100px;
+}
+@media (max-width: 600px) {
+  .detailview {
+    width: 100% !important;
+    height: auto !important;
+    overflow: hidden !important;
+  }
+
+  .detailview img {
+    text-align: center !important;
+  }
+}
+@media (max-width: 520px) {
+  .detailview {
+    width: 100%;
+    height: auto;
+  }
+
+  .detailview .detailTitle {
+    width: 85%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 0px;
+    text-align: left;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .detailview .detailTitle h2 {
+    font-size: 22px;
+    font-weight: bold;
+    height: auto;
+  }
+
+  .detailview .detailTitle h4 {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+  .detailtext {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 25px !important;
+  }
+  .detailbuttonbox {
+    width: 85%;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .detailview button {
+    width: 70px;
+    height: 30px;
+    outline: 0;
+    border: 0;
+    /* background-color: #f39531; */
+    border: 1px solid #f39531;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: none;
+    color: #f39531;
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+  }
+  .detailview button:hover {
+    background-color: #f39531;
+    color: #fff;
+    transition-duration: 0.3s;
+  }
+
+  .detailbuttonbox .update {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 280px) {
+  .detailview {
+    width: 100%;
+    height: auto;
+  }
+
+  .detailview .detailTitle {
+    width: 85%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 0px;
+    text-align: left;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .detailview .detailTitle h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .detailview .detailTitle h4 {
+    font-size: 8px;
+    margin-top: 15px;
+  }
+  .detailbuttonbox {
+    width: 85%;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+  }
+}

@@ -1,0 +1,556 @@
+.Omscode {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.Solutionimg {
+  width: 15rem !important;
+}
+.Omscode .Omscodetextbox {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.Omscode .Omscodetextbox .Omscodetitle {
+  width: 80%;
+  margin: 0 auto;
+  height: 350px;
+  background-color: #fcf1ed;
+  border-radius: 20px;
+  text-align: center;
+}
+:lang(en) .Omscode .Omscodetextbox .Omscodetitle {
+  height: 360px;
+}
+:lang(en) .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+  margin-top: 3.3rem;
+}
+.Omscode .Omscodetextbox .Omscodetitle div {
+  float: left;
+  width: 35%;
+}
+
+.Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+  margin-top: 3rem;
+}
+
+.Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) {
+  text-align: left;
+  width: 65%;
+}
+
+.Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h1 {
+  width: 15rem;
+  height: auto;
+  text-align: center;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #e67a4b;
+  font-size: 2rem;
+  line-height: auto;
+  margin-top: 3rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p {
+  margin-bottom: 20px;
+  padding: 0px 1rem 0 0;
+  font-size: 1.2rem;
+}
+.Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p span {
+  font-size: 1.2rem !important;
+  color: #272727 !important;
+}
+
+.Omscode .scenario {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 5rem !important;
+}
+
+.Omscode .scenario h2 {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+  line-height: 50px;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 900;
+}
+
+.Omscode .scenario div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.Omscode .scenario div img {
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+
+@media (max-width: 1208px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle {
+    width: 80%;
+    height: 325px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle {
+    height: 360px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 2rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 0.8rem 0;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h3 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.2rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .Omscode .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .Omscode .scenario h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .Omscode .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle {
+    width: 80%;
+    height: 330px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle {
+    height: 360px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div {
+    float: left;
+    width: 40%;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) {
+    text-align: left;
+    width: 60%;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 1.7rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .Omscode .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .Omscode .scenario h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .Omscode .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+/* @media (max-width: 1208px) {
+  .Omscode .Omscodetextbox .Omscodetitle {
+    background: red !important;
+  }
+} */
+@media (max-width: 834px) {
+  .Omscode .Omscodetextbox .Omscodetitle {
+    width: 85%;
+  }
+  .Omscode .scenario {
+    width: 85%;
+  }
+
+  .Omscode .scenario h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+}
+/* ==================================================== */
+
+@media (max-width: 768px) {
+  .Certificate-img2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .Certificate-img2 img {
+    width: 6rem !important;
+  }
+
+  .Solutionimg {
+    width: 20rem !important;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle {
+    width: 80%;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle {
+    height: 840px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 3.5rem;
+    margin-left: -25px;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h1 {
+    width: 25rem;
+    height: auto;
+    font-size: 2.5rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1.2rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h3 {
+    font-size: 2.3rem;
+    margin-top: 2rem;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.5rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p span {
+    font-size: 1.5rem !important;
+    display: block;
+  }
+}
+
+@media (max-width: 540px) {
+  .Solutionimg {
+    width: 17rem !important;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle {
+    width: 85%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle {
+    height: 730px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 3rem !important;
+    margin-left: -25px;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h1 {
+    width: 17rem;
+    height: auto;
+    font-size: 1.8rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem !important;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1.2rem;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 1rem;
+    font-size: 1.2rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p span {
+    font-size: 1.2rem !important;
+    display: block;
+  }
+
+  .Omscode .scenario {
+    width: 85%;
+    margin-top: 2rem !important;
+  }
+  :lang(en) .Omscode .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 1rem;
+  }
+  .Omscode .scenario h2 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+  }
+
+  .Omscode .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .Solutionimg {
+    width: 15rem !important;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem !important;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle {
+    height: 630px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle {
+    height: 700px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .Solutionimg {
+    width: 13rem !important;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle {
+    width: 85%;
+    height: 560px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle {
+    height: 680px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h1 {
+    width: 14rem;
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+  .Omscode .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+  :lang(en) .Omscode .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .Solutionimg {
+    width: 12em !important;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle {
+    width: 85%;
+    height: 550px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle {
+    height: 650px;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h3 {
+    font-size: 1.3rem;
+    margin-top: 2rem !important;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 280px) {
+  .Solutionimg {
+    width: 11em !important;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle {
+    width: 85%;
+    height: 490px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle {
+    height: 620px;
+  }
+  :lang(en) .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h1 {
+    width: 12rem;
+    font-size: 1.3rem;
+    margin-top: 1rem !important;
+    padding: 0.8rem 0;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem !important;
+  }
+
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.8rem;
+  }
+  .Omscode .Omscodetextbox .Omscodetitle div:nth-child(2) p span {
+    font-size: 0.8rem !important;
+  }
+
+  .Omscode .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.7rem;
+  }
+  :lang(en) .Omscode .scenario h2 {
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+}

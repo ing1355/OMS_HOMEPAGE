@@ -1,0 +1,355 @@
+a {
+  color: inherit;
+}
+.directions {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+/* .directions h3 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 70px;
+} */
+
+.directions p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.directionstextbox {
+  width: 100%;
+  height: 40rem;
+  background: url("http://naver.me/GVAeGpdk");
+  padding-top: 60px;
+}
+.directionstextbox .map {
+  width: 50%;
+  height: 37rem;
+  float: left;
+}
+.directionstextbox .call {
+  width: 50%;
+  height: 40rem;
+  background: border-box;
+  background: linear-gradient(to bottom, #6fb8ec, #6fecdf);
+  float: left;
+  padding-bottom: 2rem;
+}
+
+:lang(en) .directionstextbox {
+  height: 43rem;
+}
+
+:lang(en) .directionstextbox .map {
+  height: 43rem;
+}
+
+:lang(en) .directionstextbox .call {
+  height: 43rem;
+}
+
+.directionstextbox .call h5 {
+  font-size: 1.7rem;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.directionstextbox .call h5:nth-child(1) {
+  margin-top: 3.5rem;
+}
+
+.directionstextbox .call p {
+  font-size: 1.1rem;
+  color: #fff;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+}
+
+.directionstextbox .call .number {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+/* @media (max-width: 1920px) {
+  .directionstextbox .call {
+    width: 50%;
+    height: 40rem;
+    background: border-box;
+    background: linear-gradient(to bottom, #6fb8ec, #6fecdf);
+    float: left;
+  }
+
+  .directionstextbox .call h5 {
+    font-size: 3vh;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  .directionstextbox .call h5:nth-child(1) {
+    margin-top: 4rem;
+  }
+
+  .directionstextbox .call p {
+    font-size: 1.5vh;
+    color: #fff;
+    text-align: left;
+    margin-top: 1vh;
+    margin-bottom: 5rem;
+    margin-left: 30px;
+  }
+} */
+
+/* ---------------------------------- */
+
+@media (max-width: 1024px) {
+  .directions {
+    width: 100%;
+    height: auto;
+  }
+  .directionstextbox {
+    width: auto;
+    height: auto;
+    background: url("http://naver.me/GVAeGpdk");
+    /* margin-top: 50px !important; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .directionstextbox .map {
+    width: 100%;
+    height: 400px;
+    display: block;
+    order: 2;
+    position: relative;
+    z-index: 2;
+  }
+  :lang(en) .directionstextbox {
+    height: auto;
+  }
+  :lang(en) .directionstextbox .map {
+    height: 400px;
+  }
+
+  :lang(en) .directionstextbox .call {
+    height: 460px;
+  }
+  .directionstextbox .call {
+    width: 85%;
+    height: 470px;
+    background: border-box;
+    background: linear-gradient(to bottom, #6fb8ec, #6fecdf);
+    display: block;
+    order: 1;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .directionstextbox .call h5 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .directionstextbox .call h5:nth-child(1) {
+    margin-top: 40px;
+  }
+
+  .directionstextbox .call p {
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+
+  .directionstextbox .call .number {
+    font-weight: 900;
+    font-size: 30px;
+  }
+}
+/* ---------------------------------- */
+@media (max-width: 540px) {
+  .directions {
+    width: 100%;
+    height: auto;
+  }
+
+  .directions p {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .directionstextbox {
+    width: auto;
+    height: 650px;
+    background: url("http://naver.me/GVAeGpdk");
+    padding-top: 50px !important;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .directionstextbox {
+    height: auto;
+  }
+  :lang(en) .directionstextbox .map {
+    height: 300px !important;
+  }
+
+  :lang(en) .directionstextbox .call {
+    height: 280px;
+  }
+  .directionstextbox .map {
+    width: 100%;
+    height: 600px !important;
+    display: block;
+    order: 2;
+    position: relative;
+    z-index: 2;
+  }
+
+  .directionstextbox .call {
+    width: 85%;
+    height: 290px;
+    background: border-box;
+    background: linear-gradient(to bottom, #6fb8ec, #6fecdf);
+    display: block;
+    order: 1;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .directionstextbox .call h5 {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .directionstextbox .call h5:nth-child(1) {
+    margin-top: 25px;
+  }
+
+  .directionstextbox .call p {
+    font-size: 0.5rem;
+    color: #fff;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+  }
+
+  .directionstextbox .call .number {
+    font-weight: 900;
+    font-size: 25px;
+  }
+}
+/* ---------------------------------- */
+@media (max-width: 414px) {
+  .directionstextbox .call {
+    height: 290px;
+  }
+  :lang(en) .directionstextbox .call {
+    height: 320px;
+  }
+  .directions {
+    width: 100%;
+    height: auto;
+  }
+  .directionstextbox {
+    width: auto;
+    height: auto;
+    background: url("http://naver.me/GVAeGpdk");
+    margin-top: 0px !important;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .directionstextbox .map {
+    width: 100%;
+    height: 400px;
+    display: block;
+    order: 2;
+    position: relative;
+    z-index: 2;
+  }
+}
+/* ---------------------------------- */
+@media (max-width: 280px) {
+  .directions {
+    width: 100%;
+    height: auto;
+  }
+
+  .directions p {
+    text-align: center;
+    font-size: 8px !important;
+    padding: 0px 20px 0 0px;
+  }
+
+  .directionstextbox {
+    width: auto;
+    height: 580px;
+    background: url("http://naver.me/GVAeGpdk");
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .directionstextbox .map {
+    width: 100%;
+    height: 400px;
+    display: block;
+    order: 2;
+    position: relative;
+    z-index: 2;
+  }
+  :lang(en) .directionstextbox .call {
+    height: 300px;
+  }
+  .directionstextbox .call {
+    width: 85%;
+    height: 290px;
+    background: border-box;
+    background: linear-gradient(to bottom, #6fb8ec, #6fecdf);
+    display: block;
+    order: 1;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .directionstextbox .call h5 {
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .directionstextbox .call h5:nth-child(1) {
+    margin-top: 25px;
+  }
+
+  .directionstextbox .call p {
+    font-size: 10px;
+    color: #fff;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+  }
+
+  .directionstextbox .call .number {
+    font-weight: 900;
+    font-size: 0.8rem !important;
+    text-decoration: none;
+  }
+}

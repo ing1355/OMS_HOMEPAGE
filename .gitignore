@@ -1,0 +1,9 @@
+node_modules
+out
+package-lock.json
+.next
+_next
+*.pdf
+build
+public/assets
+public/pdf

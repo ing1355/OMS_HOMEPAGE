@@ -1,0 +1,808 @@
+:lang(ko) .enImg {
+  display: none;
+}
+:lang(en) .koImg {
+  display: none;
+}
+:lang(ko) .enVideo {
+  display: none;
+}
+:lang(en) .koVideo {
+  display: none;
+}
+.ompass {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.Solutionimg {
+  width: 15rem !important;
+}
+.Certificate-img2 {
+  display: flex;
+  flex-direction: row;
+}
+.Certificate-img2 img {
+  width: 4.8rem !important;
+}
+.ompass .ompasstextbox {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.ompass .ompasstextbox .ompasstitle {
+  width: 80%;
+  margin: 0 auto;
+  height: 350px;
+  background-color: #ebedfd;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+.ompass .ompasstextbox .ompasstitle .cloud-button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  border: 0;
+  outline: 0;
+  /* background: #004e82;
+  width: auto;
+  height: auto; */
+  color: #fff;
+  font-size: 1rem;
+  /* padding: 0.5rem 1rem; */
+  border-radius: 10px;
+}
+.ompass .ompasstextbox .ompasstitle .cloud-button:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+:lang(en) .ompass .ompasstextbox .ompasstitle {
+  height: 360px;
+}
+:lang(en) .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+  margin-top: 3.3rem;
+}
+.ompass .ompasstextbox .ompasstitle div {
+  float: left;
+  width: 35%;
+}
+
+.ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+  margin-top: 3rem;
+}
+
+.ompass .ompasstextbox .ompasstitle div:nth-child(2) {
+  text-align: left;
+  width: 65%;
+}
+
+.ompass .ompasstextbox .ompasstitle div:nth-child(2) h1 {
+  width: 15rem;
+  height: auto;
+  text-align: center;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #2a65dd;
+  font-size: 2rem;
+  line-height: auto;
+  margin-top: 3rem !important;
+  font-weight: bold;
+  padding: 1rem 0;
+  margin-top: 8px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.ompassdd {
+  display: flex;
+  flex-direction: row;
+}
+.videoButton {
+  border: 0;
+  outline: 0;
+  background: #f39531;
+  width: auto;
+  height: auto;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem 12px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  top: -3px;
+}
+.videoButton2 {
+  margin-left: 0.5rem !important;
+}
+.videoButton2:hover {
+  color: #fff;
+  transition-duration: 0.3s;
+  box-shadow: inset 0px 0 18px 5px #d87811;
+}
+.videoButton .playCircle {
+  width: 20px;
+  margin-top: -2px;
+}
+.videoButton:hover {
+  transition-duration: 0.3s;
+  box-shadow: inset 0px 0 18px 5px #d87811;
+}
+.ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 h4 {
+  display: inline;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.ompass .ompasstextbox .ompasstitle div:nth-child(2) p {
+  margin-bottom: 20px;
+  padding: 0px 1rem 0 0;
+  font-size: 1.2rem;
+}
+.ompass .ompasstextbox .ompasstitle div:nth-child(2) p span {
+  font-size: 1.2rem !important;
+  color: #272727 !important;
+}
+
+.ompass .scenario {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 5rem !important;
+}
+/* :lang(en) .ompass .scenario:nth-child(3) h2 {
+  display: none;
+} */
+
+.ompass .scenario h2 {
+  width: 100%;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 900;
+}
+
+.ompass .scenario div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.ompass .scenario div img {
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+iframe {
+  height: 539px;
+  width: 100%;
+  min-height: 140px;
+}
+.go-cloud {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(https://omsecurity.kr/assets/cloud_bg.jpg) no-repeat;
+  background-size: 100%;
+  margin-top: 3rem;
+}
+.ompass .brochurebox {
+  margin-top: 0;
+}
+.go-cloud a {
+  padding: 0.7rem 2.5rem;
+  border: 0;
+  outline: 0;
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+}
+.go-cloud a:hover {
+  background-color: #fff;
+  color: #2a65dd;
+}
+.go-cloud button a {
+  color: #fff;
+}
+
+.go-cloud h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.go-cloud p {
+  font-size: 1.5rem;
+  color: #fff;
+  word-break: keep-all;
+}
+
+.pay-box.n3 {
+  background: #fbb22cb0 url("https://omsecurity.kr/assets/pps-dsm-bg.png") no-repeat 97% 90% / 18rem;
+}
+
+.pay-box.n3 p{
+  font-size: 1.5rem;
+}
+
+.pay-box.n3 button {
+  background-color: #ffb11f;
+}
+
+:lang(en) .pay-box.n3 {
+  background: #fbb22cb0 url("https://omsecurity.kr/assets/pps-dsm-bgen.png") no-repeat 97% 90% / 12rem;
+}
+
+@media (max-width: 1208px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .ompass .ompasstextbox .ompasstitle {
+    width: 80%;
+    height: 350px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle {
+    height: 360px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div {
+    float: left;
+    width: 40%;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) {
+    text-align: left;
+    width: 60%;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h1 {
+    width: 15rem;
+    height: auto;
+    font-size: 2rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 0.8rem 0;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 h4 {
+    font-size: 1.7rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.2rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .ompass .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .ompass .scenario h2 {
+    width: 100%;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .ompass .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Solutionimg {
+    width: 14rem !important;
+  }
+  .ompass .ompasstextbox .ompasstitle {
+    width: 80%;
+    height: 330px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle {
+    height: 360px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div {
+    float: left;
+    width: 40%;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 2.8rem;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) {
+    text-align: left;
+    width: 60%;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h1 {
+    width: 13rem;
+    height: auto;
+    font-size: 1.7rem;
+    line-height: auto;
+    margin-top: 3rem;
+    padding: 1rem 0;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 h4 {
+    font-size: 1.5rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .ompass .scenario {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 3rem !important;
+  }
+
+  .ompass .scenario h2 {
+    font-size: 1.2rem;
+  }
+
+  .ompass .scenario div img {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 834px) {
+  .ompass .ompasstextbox .ompasstitle {
+    width: 85%;
+  }
+  .ompass .scenario {
+    width: 85%;
+  }
+
+  .ompass .scenario h2 {
+    width: 100%;
+  }
+}
+/* ==================================================== */
+
+@media (max-width: 768px) {
+  .go-cloud {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+  }
+
+  .videoButton {
+    padding: 0 30px;
+    height: 55px;
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    position: relative;
+    top: 0px;
+  }
+  iframe {
+    height: 360px;
+    width: 100%;
+  }
+  .Solutionimg {
+    width: 20rem !important;
+  }
+  .ompass .ompasstextbox .ompasstitle {
+    width: 80%;
+    height: 940px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle {
+    height: 930px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 3.5rem;
+    margin-left: -25px;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h1 {
+    width: 25rem;
+    height: auto;
+    font-size: 2.5rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1.2rem 0;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 {
+    font-size: 2.3rem;
+    margin-top: 2rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 h4 {
+    font-size: 2.3rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p {
+    margin-bottom: 20px;
+    padding: 0px 1rem 0 0;
+    font-size: 1.5rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p span {
+    font-size: 1.5rem !important;
+    display: block;
+  }
+}
+@media (max-width: 708px) {
+  .ompass .ompasstextbox .ompasstitle {
+    height: 960px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle {
+    height: 990px;
+  }
+}
+@media (max-width: 540px) {
+  .go-cloud a {
+    padding: 0.7rem 2.5rem;
+  }
+
+  .go-cloud h1 {
+    font-size: 40px;
+  }
+  .go-cloud p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 0.3rem;
+  }
+  iframe {
+    height: 260px;
+    width: 100%;
+  }
+  .videoButton {
+    height: 45px;
+    font-size: 1.2rem;
+    margin-left: 0rem;
+    border-radius: 10px;
+    margin-top: 2rem !important;
+    padding: 0 30px;
+    position: relative;
+    top: 0px;
+  }
+  .Solutionimg {
+    width: 17rem !important;
+  }
+  .ompass .ompasstextbox .ompasstitle {
+    width: 85%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle {
+    height: 870px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div {
+    float: center;
+    width: 100%;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 3rem !important;
+    margin-left: -25px;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) {
+    text-align: center;
+    width: 100%;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h1 {
+    width: 17rem;
+    height: auto;
+    font-size: 1.8rem;
+    line-height: auto;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem !important;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 h4 {
+    font-size: 1.8rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1.2rem;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 1rem;
+    font-size: 1.2rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p span {
+    font-size: 1.2rem !important;
+    display: block;
+  }
+
+  .ompass .scenario {
+    width: 85%;
+    margin-top: 2rem !important;
+  }
+  :lang(en) .ompass .scenario h2 {
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+  }
+  .ompass .scenario h2 {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .ompass .scenario div img {
+    margin-top: 0.5rem;
+  }
+  .pay-box.n3 {
+    background-position: 50% 95%;
+    background-size: 30%;
+  }
+  
+  .pay-box.n3 p{
+    display: none;
+  }
+  :lang(en) .pay-box.n3 {
+    background-position: 50% 95%;
+    background-size: 30%;
+  }
+}
+@media (max-width: 423px) {
+  .ompass .ompasstextbox .ompasstitle .cloud-button {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .ompass .ompasstextbox .ompasstitle {
+    height: 900px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle {
+    height: 900px;
+  }
+}
+@media (max-width: 414px) {
+  .go-cloud a {
+    padding: 0.7rem 2.5rem;
+  }
+
+  .go-cloud h1 {
+    font-size: 2.2rem;
+  }
+  .go-cloud p {
+    font-size: 1rem;
+  }
+  .videoButton {
+    height: 40px;
+    font-size: 1.1rem;
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+    padding: 0 30px;
+  }
+
+  .videoButton .playCircle {
+    width: 20px;
+  }
+  .Solutionimg {
+    width: 15rem !important;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem !important;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 h4 {
+    font-size: 1.5rem;
+    display: block;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 1rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p span {
+    font-size: 1rem !important;
+  }
+
+  .ompass .ompasstextbox .ompasstitle {
+    height: 800px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle {
+    height: 800px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .Solutionimg {
+    width: 13rem !important;
+  }
+  .ompass .ompasstextbox .ompasstitle {
+    width: 85%;
+    height: 750px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle {
+    height: 770px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h1 {
+    width: 14rem;
+    font-size: 1.5rem;
+    margin-top: 1rem !important;
+    padding: 1rem 0;
+  }
+  .ompass .scenario h2 {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+  }
+  :lang(en) .ompass .scenario h2 {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .Solutionimg {
+    width: 12em !important;
+  }
+  .ompass .ompasstextbox .ompasstitle {
+    width: 85%;
+    height: 680px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle {
+    height: 700px;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 {
+    font-size: 1.3rem;
+    margin-top: 2rem !important;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 h4 {
+    font-size: 1.3rem;
+    display: block;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.9rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p span {
+    font-size: 0.9rem !important;
+  }
+}
+@media (max-width: 280px) {
+  .ompass .ompasstextbox .ompasstitle .cloud-button {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .videoButton {
+    height: 35px;
+    font-size: 0.9rem;
+    margin-left: 0rem;
+    margin-top: 1.5rem !important;
+    padding: 0 20px;
+  }
+  .Solutionimg {
+    width: 11em !important;
+  }
+  .ompass .ompasstextbox .ompasstitle {
+    width: 85%;
+    height: 650px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle {
+    height: 680px;
+  }
+  :lang(en) .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 3rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(1) img {
+    margin-top: 3rem;
+    margin-left: -10px;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h1 {
+    width: 12rem;
+    font-size: 1.3rem;
+    margin-top: 1rem !important;
+    padding: 0.8rem 0;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem !important;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) h3 h4 {
+    font-size: 1.2rem;
+  }
+
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p {
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    padding: 0px 0rem 0 0;
+    font-size: 0.8rem;
+  }
+  .ompass .ompasstextbox .ompasstitle div:nth-child(2) p span {
+    font-size: 0.8rem !important;
+  }
+
+  .ompass .scenario h2 {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  :lang(en) .ompass .scenario h2 {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
